@@ -1,0 +1,20 @@
+{
+  "merge_commit_sha": "acffc2ec986de456792503b5a6901fd68889bf8a",
+  "authors": [
+    {
+      "n": "Sumalyo Datta",
+      "e": "39642083+Sumalyo@users.noreply.github.com",
+      "l": "Sumalyo"
+    },
+    {
+      "n": "Daniel McCloy",
+      "e": "dan@mccloy.info"
+    }
+  ],
+  "changes": {
+    "mne/io/edf/edf.py": {
+      "a": 2,
+      "d": 1
+    }
+  }
+}

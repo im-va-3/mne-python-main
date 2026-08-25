@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "ba5c83e55776fabe306f2a702a56f8b7391fb5bc",
+  "authors": [
+    {
+      "n": "Nataliia Kozhemiako",
+      "e": "22401374+NataKozh@users.noreply.github.com",
+      "l": "NataKozh"
+    }
+  ],
+  "changes": {
+    "doc/glossary.rst": {
+      "a": 7,
+      "d": 1
+    }
+  }
+}

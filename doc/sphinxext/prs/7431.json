@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "7cec1e43350099358acc267ec3dd43203f63eb07",
+  "authors": [
+    {
+      "n": "Clemens Brunner",
+      "e": "4377312+cbrnr@users.noreply.github.com",
+      "l": "cbrnr"
+    }
+  ],
+  "changes": {
+    "mne/viz/raw.py": {
+      "a": 1,
+      "d": 1
+    }
+  }
+}

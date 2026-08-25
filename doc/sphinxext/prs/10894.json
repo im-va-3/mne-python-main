@@ -1,0 +1,20 @@
+{
+  "merge_commit_sha": "8a7658b615a67845a54302c357cd66d86f56cc99",
+  "authors": [
+    {
+      "n": "Archit Singhal",
+      "e": "43236121+architsinghal-mriirs@users.noreply.github.com",
+      "l": "architsinghal-mriirs"
+    },
+    {
+      "n": "archit singhal",
+      "e": "zyphergiest@pop-os.localdomain"
+    }
+  ],
+  "changes": {
+    "examples/preprocessing/otp.py": {
+      "a": 1,
+      "d": 3
+    }
+  }
+}

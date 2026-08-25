@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "0a61e1c7c271829bb3cc9480ea8fb08142c91e7b",
+  "authors": [
+    {
+      "n": "Catalina M. Galván",
+      "e": "79813952+catalinamagalvan@users.noreply.github.com",
+      "l": "catalinamagalvan"
+    }
+  ],
+  "changes": {
+    "examples/preprocessing/plot_xdawn_denoising.py": {
+      "a": 6,
+      "d": 12
+    }
+  }
+}

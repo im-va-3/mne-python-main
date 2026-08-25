@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "5909e1bb0044e558536e62d441f0d694be65377a",
+  "authors": [
+    {
+      "n": "Daniel McCloy",
+      "e": "1810515+drammock@users.noreply.github.com",
+      "l": "drammock"
+    }
+  ],
+  "changes": {
+    "mne/viz/_figure.py": {
+      "a": 1,
+      "d": 1
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "f524a10c5e0801882483ef5c6555bd06a9ee2293",
+  "authors": [
+    {
+      "n": "Christian Brodbeck",
+      "e": "145771+christianbrodbeck@users.noreply.github.com",
+      "l": "christianbrodbeck"
+    }
+  ],
+  "changes": {
+    "mne/fiff/meas_info.py": {
+      "a": 14,
+      "d": 14
+    }
+  }
+}

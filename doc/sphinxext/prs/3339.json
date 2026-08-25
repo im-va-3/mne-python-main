@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "bf568d5676714263821d2ec97bdfe7f4e738bf11",
+  "authors": [
+    {
+      "n": "Alexander Rudiuk",
+      "e": "2080576+ARudiuk@users.noreply.github.com",
+      "l": "ARudiuk"
+    }
+  ],
+  "changes": {
+    "doc/contributing.rst": {
+      "a": 1,
+      "d": 1
+    }
+  }
+}

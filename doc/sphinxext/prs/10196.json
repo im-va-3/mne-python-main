@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "67f3fb8f838893f7210b805aa51b7ffeeac292b5",
+  "authors": [
+    {
+      "n": "Clemens Brunner",
+      "e": "4377312+cbrnr@users.noreply.github.com",
+      "l": "cbrnr"
+    }
+  ],
+  "changes": {
+    "mne/preprocessing/ica.py": {
+      "a": 7,
+      "d": 8
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "d29cdaa7e8a1b98084f4691828a1a180240c5553",
+  "authors": [
+    {
+      "n": "Emanuele Olivetti",
+      "e": "69366+emanuele@users.noreply.github.com",
+      "l": "emanuele"
+    }
+  ],
+  "changes": {
+    "setup.py": {
+      "a": 1,
+      "d": 0
+    }
+  }
+}

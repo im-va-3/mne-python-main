@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "99cf565723612b35af67a23a38fbbfd7ace82c7f",
+  "authors": [
+    {
+      "n": "Christian Brodbeck",
+      "e": "145771+christianbrodbeck@users.noreply.github.com",
+      "l": "christianbrodbeck"
+    }
+  ],
+  "changes": {
+    "mne/io/kit/kit.py": {
+      "a": 27,
+      "d": 32
+    }
+  }
+}

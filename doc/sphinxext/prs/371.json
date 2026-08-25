@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "69602c9ed026b5be7b1c595d323849a2e8be1f4a",
+  "authors": [
+    {
+      "n": "Christian Brodbeck",
+      "e": "145771+christianbrodbeck@users.noreply.github.com",
+      "l": "christianbrodbeck"
+    }
+  ],
+  "changes": {
+    "mne/source_estimate.py": {
+      "a": 13,
+      "d": 14
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "addab681a95d8a1054cfd0e0de1842f3ee4b467f",
+  "authors": [
+    {
+      "n": "Rob Luke",
+      "e": "748691+rob-luke@users.noreply.github.com",
+      "l": "rob-luke"
+    }
+  ],
+  "changes": {
+    "mne/utils/config.py": {
+      "a": 3,
+      "d": 2
+    }
+  }
+}

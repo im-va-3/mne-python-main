@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "91af33a3035b879d1efdaf0c3b0a7bc610ff7ae1",
+  "authors": [
+    {
+      "n": "Daniel McCloy",
+      "e": "1810515+drammock@users.noreply.github.com",
+      "l": "drammock"
+    }
+  ],
+  "changes": {
+    ".circleci/config.yml": {
+      "a": 1,
+      "d": 1
+    }
+  }
+}

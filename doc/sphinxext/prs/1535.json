@@ -1,0 +1,24 @@
+{
+  "merge_commit_sha": "1685beabc4f1395598cd09f621a2a28e35e85f96",
+  "authors": [
+    {
+      "n": "Daniel Strohmeier",
+      "e": "1483010+joewalter@users.noreply.github.com",
+      "l": "joewalter"
+    }
+  ],
+  "changes": {
+    "doc/source/whats_new.rst": {
+      "a": 2,
+      "d": 0
+    },
+    "mne/time_frequency/stft.py": {
+      "a": 7,
+      "d": 6
+    },
+    "mne/time_frequency/tests/test_stft.py": {
+      "a": 21,
+      "d": 1
+    }
+  }
+}

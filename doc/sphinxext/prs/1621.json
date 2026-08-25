@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "ef1325503c020ca49c8e568f067597421776c8ba",
+  "authors": [
+    {
+      "n": "marmaduke woodman",
+      "e": "5189886+maedoc@users.noreply.github.com",
+      "l": "maedoc"
+    }
+  ],
+  "changes": {
+    "mne/fixes.py": {
+      "a": 10,
+      "d": 1
+    }
+  }
+}

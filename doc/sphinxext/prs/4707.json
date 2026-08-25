@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "405ef473f9f8eda9acffc8fd0ab89cf5349bc567",
+  "authors": [
+    {
+      "n": "Clemens Brunner",
+      "e": "4377312+cbrnr@users.noreply.github.com",
+      "l": "cbrnr"
+    }
+  ],
+  "changes": {
+    "tutorials/plot_python_intro.py": {
+      "a": 19,
+      "d": 19
+    }
+  }
+}

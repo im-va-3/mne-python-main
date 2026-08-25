@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "cee4e7d11116bd4e0e219fe611c0121cafd2394d",
+  "authors": [
+    {
+      "n": "Daniel McCloy",
+      "e": "1810515+drammock@users.noreply.github.com",
+      "l": "drammock"
+    }
+  ],
+  "changes": {
+    "mne/time_frequency/tests/test_spectrum.py": {
+      "a": 9,
+      "d": 6
+    }
+  }
+}

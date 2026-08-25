@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "920f0c3d31e1b939a93fd7ec37044a89076f0b71",
+  "authors": [
+    {
+      "n": "Mainak Jas",
+      "e": "15852194+jasmainak@users.noreply.github.com",
+      "l": "jasmainak"
+    }
+  ],
+  "changes": {
+    "examples/realtime/ftclient_rt_average.py": {
+      "a": 1,
+      "d": 0
+    }
+  }
+}

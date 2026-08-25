@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "038832403ae7d2cf3ea4d05a944b2bb354bb386f",
+  "authors": [
+    {
+      "n": "Mainak Jas",
+      "e": "15852194+jasmainak@users.noreply.github.com",
+      "l": "jasmainak"
+    }
+  ],
+  "changes": {
+    "mne/forward/_compute_forward.py": {
+      "a": 5,
+      "d": 4
+    }
+  }
+}

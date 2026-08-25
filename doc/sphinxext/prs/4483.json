@@ -1,0 +1,24 @@
+{
+  "merge_commit_sha": "be4c1739167643d4b14aba3780b35d3d6b83eb3f",
+  "authors": [
+    {
+      "n": "Jean-Rémi KING",
+      "e": "4881164+kingjr@users.noreply.github.com",
+      "l": "kingjr"
+    }
+  ],
+  "changes": {
+    "doc/whats_new.rst": {
+      "a": 3,
+      "d": 1
+    },
+    "mne/decoding/search_light.py": {
+      "a": 13,
+      "d": 6
+    },
+    "mne/decoding/tests/test_search_light.py": {
+      "a": 2,
+      "d": 0
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "6c2b485d128643a5e96ee45fbe496ecea9438f28",
+  "authors": [
+    {
+      "n": "Daniel McCloy",
+      "e": "1810515+drammock@users.noreply.github.com",
+      "l": "drammock"
+    }
+  ],
+  "changes": {
+    "mne/utils/check.py": {
+      "a": 19,
+      "d": 6
+    }
+  }
+}

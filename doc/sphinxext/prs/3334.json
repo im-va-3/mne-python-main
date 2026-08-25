@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "0a52ab33fa889e02242f5003fcd5d5f6cd7fc838",
+  "authors": [
+    {
+      "n": "Nick Foti",
+      "e": "1437512+nfoti@users.noreply.github.com",
+      "l": "nfoti"
+    }
+  ],
+  "changes": {
+    "mne/externals/h5io/_h5io.py": {
+      "a": 157,
+      "d": 29
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "5935f407f24556ae2c30fd407b4296d6b146b926",
+  "authors": [
+    {
+      "n": "Clemens Brunner",
+      "e": "4377312+cbrnr@users.noreply.github.com",
+      "l": "cbrnr"
+    }
+  ],
+  "changes": {
+    ".github/CODEOWNERS": {
+      "a": 17,
+      "d": 7
+    }
+  }
+}

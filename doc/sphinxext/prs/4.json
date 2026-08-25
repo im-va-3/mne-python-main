@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "4b2ebd3fb53294bcd52c822cbaa0d0a9f3a99de3",
+  "authors": [
+    {
+      "n": "Martin Luessi",
+      "e": "647005+mluessi@users.noreply.github.com",
+      "l": "mluessi"
+    }
+  ],
+  "changes": {
+    "examples/stats/plot_cluster_stats_evoked.py": {
+      "a": 1,
+      "d": 1
+    }
+  }
+}

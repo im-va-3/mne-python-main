@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "3d1646f9e2ba16e92a2c3ce6105da2c336a27fed",
+  "authors": [
+    {
+      "n": "Maureen Shader",
+      "e": "55732126+mshader@users.noreply.github.com",
+      "l": "mshader"
+    }
+  ],
+  "changes": {
+    "tutorials/preprocessing/plot_70_fnirs_processing.py": {
+      "a": 17,
+      "d": 15
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "985c1959d4b0e2229d9288e78d0a022926042b76",
+  "authors": [
+    {
+      "n": "Daniel McCloy",
+      "e": "1810515+drammock@users.noreply.github.com",
+      "l": "drammock"
+    }
+  ],
+  "changes": {
+    "mne/io/edf/edf.py": {
+      "a": 3,
+      "d": 1
+    }
+  }
+}

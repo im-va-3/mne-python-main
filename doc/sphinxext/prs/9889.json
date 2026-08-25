@@ -1,0 +1,20 @@
+{
+  "merge_commit_sha": "8e435cf5d19ce2f56180360633180181248f6ad7",
+  "authors": [
+    {
+      "n": "Clemens Brunner",
+      "e": "4377312+cbrnr@users.noreply.github.com",
+      "l": "cbrnr"
+    }
+  ],
+  "changes": {
+    "mne/io/base.py": {
+      "a": 7,
+      "d": 7
+    },
+    "mne/io/tests/test_raw.py": {
+      "a": 3,
+      "d": 3
+    }
+  }
+}

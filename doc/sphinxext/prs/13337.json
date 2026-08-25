@@ -1,0 +1,24 @@
+{
+  "merge_commit_sha": "1d318a43bf78bf360ded4eefb790c85bc515644e",
+  "authors": [
+    {
+      "n": "Lumberbot (aka Jack)",
+      "e": "39504233+meeseeksmachine@users.noreply.github.com",
+      "l": "meeseeksmachine"
+    },
+    {
+      "n": "Eric Larson",
+      "e": "larson.eric.d@gmail.com"
+    }
+  ],
+  "changes": {
+    "doc/sphinxext/mne_doc_utils.py": {
+      "a": 12,
+      "d": 1
+    },
+    "mne/gui/_coreg.py": {
+      "a": 3,
+      "d": 2
+    }
+  }
+}

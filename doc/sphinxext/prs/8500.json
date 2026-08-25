@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "6734953dd15070550cf792004b5ffa1079001541",
+  "authors": [
+    {
+      "n": "Daniel McCloy",
+      "e": "1810515+drammock@users.noreply.github.com",
+      "l": "drammock"
+    }
+  ],
+  "changes": {
+    "mne/utils/mixin.py": {
+      "a": 48,
+      "d": 34
+    }
+  }
+}

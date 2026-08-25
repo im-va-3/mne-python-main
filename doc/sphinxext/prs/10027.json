@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "3e87a691b07ef14dd3705054ecc789a1fa6f18b6",
+  "authors": [
+    {
+      "n": "Rob Luke",
+      "e": "748691+rob-luke@users.noreply.github.com",
+      "l": "rob-luke"
+    }
+  ],
+  "changes": {
+    "doc/changes/latest.inc": {
+      "a": 2,
+      "d": 0
+    }
+  }
+}

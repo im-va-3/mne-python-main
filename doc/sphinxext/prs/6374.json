@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "5093d0061500787c9c8a617d8ac7f4020afb460c",
+  "authors": [
+    {
+      "n": "Dirk Gütlin",
+      "e": "34550289+DiGyt@users.noreply.github.com",
+      "l": "DiGyt"
+    }
+  ],
+  "changes": {
+    "mne/datasets/utils.py": {
+      "a": 2,
+      "d": 2
+    }
+  }
+}

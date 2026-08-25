@@ -1,0 +1,28 @@
+{
+  "merge_commit_sha": "dc4545c7d0a80791a26d9e3c3651d336202b2bb1",
+  "authors": [
+    {
+      "n": "Apoorva Karekal",
+      "e": "76274425+apoorva6262@users.noreply.github.com",
+      "l": "apoorva6262"
+    },
+    {
+      "n": "Daniel McCloy",
+      "e": "dan@mccloy.info"
+    }
+  ],
+  "changes": {
+    "doc/changes/latest.inc": {
+      "a": 6,
+      "d": 1
+    },
+    "doc/changes/names.inc": {
+      "a": 2,
+      "d": 0
+    },
+    "doc/overview/migrating.rst": {
+      "a": 33,
+      "d": 19
+    }
+  }
+}

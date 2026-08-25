@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "a7ef05dd462aa4fa1710c5cd135bd2fb4f49a3b6",
+  "authors": [
+    {
+      "n": "Daniel McCloy",
+      "e": "1810515+drammock@users.noreply.github.com",
+      "l": "drammock"
+    }
+  ],
+  "changes": {
+    "doc/install/contributing.rst": {
+      "a": 6,
+      "d": 6
+    }
+  }
+}

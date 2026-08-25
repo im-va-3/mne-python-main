@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "33e2f85e24400581d4c604ef86c7697e1b703d91",
+  "authors": [
+    {
+      "n": "Chris Holdgraf",
+      "e": "1839645+choldgraf@users.noreply.github.com",
+      "l": "choldgraf"
+    }
+  ],
+  "changes": {
+    "doc/contributing.rst": {
+      "a": 5,
+      "d": 0
+    }
+  }
+}

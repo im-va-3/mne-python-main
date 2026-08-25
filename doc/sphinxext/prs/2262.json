@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "d541a3e2e9c3657bdd98c528ef1a67bd96669cbe",
+  "authors": [
+    {
+      "n": "Teon L Brooks",
+      "e": "1578674+teonbrooks@users.noreply.github.com",
+      "l": "teonbrooks"
+    }
+  ],
+  "changes": {
+    "mne/io/base.py": {
+      "a": 6,
+      "d": 0
+    }
+  }
+}

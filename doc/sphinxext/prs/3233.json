@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "0a861bf8fcbd3eb833cba9fc9468a2fd877532a9",
+  "authors": [
+    {
+      "n": "Yaroslav Halchenko",
+      "e": "39889+yarikoptic@users.noreply.github.com",
+      "l": "yarikoptic"
+    }
+  ],
+  "changes": {
+    "mne/surface.py": {
+      "a": 3,
+      "d": 1
+    }
+  }
+}

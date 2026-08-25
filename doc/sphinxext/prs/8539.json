@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "d120a32dca2a1dc66e2827a1586d86ab3212d94e",
+  "authors": [
+    {
+      "n": "Daniel McCloy",
+      "e": "1810515+drammock@users.noreply.github.com",
+      "l": "drammock"
+    }
+  ],
+  "changes": {
+    "examples/visualization/plot_eeglab_head_sphere.py": {
+      "a": 0,
+      "d": 1
+    }
+  }
+}

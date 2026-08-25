@@ -1,0 +1,20 @@
+{
+  "merge_commit_sha": "2ee88da94eab2add694775971ae11b742c5fe6fc",
+  "authors": [
+    {
+      "n": "Teon L Brooks",
+      "e": "1578674+teonbrooks@users.noreply.github.com",
+      "l": "teonbrooks"
+    }
+  ],
+  "changes": {
+    "mne/fiff/__init__.py": {
+      "a": 2,
+      "d": 0
+    },
+    "mne/fiff/brainvision/brainvision.py": {
+      "a": 1,
+      "d": 1
+    }
+  }
+}

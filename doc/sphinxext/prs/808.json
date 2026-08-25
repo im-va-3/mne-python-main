@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "e21546e88e75dc5e0e88099a70e37b69948bf2cf",
+  "authors": [
+    {
+      "n": "Denis A. Engemann",
+      "e": "1908618+dengemann@users.noreply.github.com",
+      "l": "dengemann"
+    }
+  ],
+  "changes": {
+    "doc/source/getting_started.rst": {
+      "a": 44,
+      "d": 10
+    }
+  }
+}

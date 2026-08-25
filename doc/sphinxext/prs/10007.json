@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "f71b98a3a082a79a89e0e5948813fbd7a27fdb66",
+  "authors": [
+    {
+      "n": "Nikolai M Chapochnikov",
+      "e": "23103092+chapochn@users.noreply.github.com",
+      "l": "chapochn"
+    }
+  ],
+  "changes": {
+    "mne/source_estimate.py": {
+      "a": 6,
+      "d": 6
+    }
+  }
+}

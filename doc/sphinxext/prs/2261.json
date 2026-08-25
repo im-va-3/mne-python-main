@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "c1bcd9a01ed38a3580546ea33550f12a9f49616a",
+  "authors": [
+    {
+      "n": "Teon L Brooks",
+      "e": "1578674+teonbrooks@users.noreply.github.com",
+      "l": "teonbrooks"
+    }
+  ],
+  "changes": {
+    "mne/channels/channels.py": {
+      "a": 2,
+      "d": 2
+    }
+  }
+}

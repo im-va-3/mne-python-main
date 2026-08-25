@@ -1,0 +1,20 @@
+{
+  "merge_commit_sha": "d8db438592b4a6e62d71692715b176834192d9aa",
+  "authors": [
+    {
+      "n": "Clemens Brunner",
+      "e": "4377312+cbrnr@users.noreply.github.com",
+      "l": "cbrnr"
+    }
+  ],
+  "changes": {
+    "mne/io/edf/edf.py": {
+      "a": 1,
+      "d": 1
+    },
+    "mne/io/edf/tests/test_edf.py": {
+      "a": 9,
+      "d": 1
+    }
+  }
+}

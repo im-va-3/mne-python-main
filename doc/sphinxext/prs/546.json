@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "edc00a11911b6fdc872e03988840677133ff19a6",
+  "authors": [
+    {
+      "n": "Brad Buran",
+      "e": "3977643+bburan-galenea@users.noreply.github.com",
+      "l": "bburan-galenea"
+    }
+  ],
+  "changes": {
+    "README.rst": {
+      "a": 1,
+      "d": 1
+    }
+  }
+}

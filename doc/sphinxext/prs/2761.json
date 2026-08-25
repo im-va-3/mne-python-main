@@ -1,0 +1,24 @@
+{
+  "merge_commit_sha": "dbb30a703dd9052994ed8907eaa165a457487ea6",
+  "authors": [
+    {
+      "n": "Mainak Jas",
+      "e": "15852194+jasmainak@users.noreply.github.com",
+      "l": "jasmainak"
+    }
+  ],
+  "changes": {
+    "doc/Makefile": {
+      "a": 19,
+      "d": 13
+    },
+    "doc/conf.py": {
+      "a": 6,
+      "d": 8
+    },
+    "doc/contributing.rst": {
+      "a": 13,
+      "d": 1
+    }
+  }
+}

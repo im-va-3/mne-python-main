@@ -1,0 +1,24 @@
+{
+  "merge_commit_sha": "18b8f40c37850748fae4bea30498c8d533b00134",
+  "authors": [
+    {
+      "n": "Teon L Brooks",
+      "e": "1578674+teonbrooks@users.noreply.github.com",
+      "l": "teonbrooks"
+    },
+    {
+      "n": "Eric Larson",
+      "e": "larson.eric.d@gmail.com"
+    }
+  ],
+  "changes": {
+    "doc/changes/latest.inc": {
+      "a": 2,
+      "d": 0
+    },
+    "mne/viz/ica.py": {
+      "a": 2,
+      "d": 1
+    }
+  }
+}

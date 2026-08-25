@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "04e05d4d323b26af483dde38664cb817f7df8e8a",
+  "authors": [
+    {
+      "n": "Dimitri Papadopoulos Orfanos",
+      "e": "3234522+DimitriPapadopoulos@users.noreply.github.com",
+      "l": "DimitriPapadopoulos"
+    }
+  ],
+  "changes": {
+    "mne/io/fiff/tests/test_raw_fiff.py": {
+      "a": 1,
+      "d": 1
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "287f42345aae86a134acedffae2bd64e0581f87b",
+  "authors": [
+    {
+      "n": "Ivana Kojcic",
+      "e": "44771055+ikojcic@users.noreply.github.com",
+      "l": "ikojcic"
+    }
+  ],
+  "changes": {
+    "doc/contributing.rst": {
+      "a": 5,
+      "d": 3
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "merge_commit_sha": "674e2cdf3bd128637c52e38c1f2e55cb0af3b95a",
+  "authors": [
+    {
+      "n": "Matt Boggess",
+      "e": "6020037+mattboggess@users.noreply.github.com",
+      "l": "mattboggess"
+    }
+  ],
+  "changes": {
+    "doc/whats_new.rst": {
+      "a": 1,
+      "d": 1
+    },
+    "mne/channels/montage.py": {
+      "a": 11,
+      "d": 3
+    },
+    "mne/channels/tests/test_montage.py": {
+      "a": 1,
+      "d": 1
+    }
+  }
+}

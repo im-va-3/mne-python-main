@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "5e3c3c65356d1a01c22d5a17dba5653f8fd7483d",
+  "authors": [
+    {
+      "n": "Denis A. Engemann",
+      "e": "1908618+dengemann@users.noreply.github.com",
+      "l": "dengemann"
+    }
+  ],
+  "changes": {
+    "mne/fiff/raw.py": {
+      "a": 8,
+      "d": 2
+    }
+  }
+}

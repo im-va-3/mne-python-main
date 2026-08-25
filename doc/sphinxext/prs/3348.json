@@ -1,0 +1,20 @@
+{
+  "merge_commit_sha": "1ff3f45a142754b17d9a437806c165a123ec3384",
+  "authors": [
+    {
+      "n": "Christian Brodbeck",
+      "e": "145771+christianbrodbeck@users.noreply.github.com",
+      "l": "christianbrodbeck"
+    }
+  ],
+  "changes": {
+    "mne/channels/data/neighbors/KIT-UMD_neighb.mat": {
+      "a": 0,
+      "d": 0
+    },
+    "mne/channels/data/neighbors/__init__.py": {
+      "a": 3,
+      "d": 0
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "8185632046476d0ed14155b78620c922176068eb",
+  "authors": [
+    {
+      "n": "Marcin Koculak",
+      "e": "16628635+mkoculak@users.noreply.github.com",
+      "l": "mkoculak"
+    }
+  ],
+  "changes": {
+    "mne/io/edf/edf.py": {
+      "a": 1,
+      "d": 1
+    }
+  }
+}

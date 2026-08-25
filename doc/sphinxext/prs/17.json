@@ -1,0 +1,20 @@
+{
+  "merge_commit_sha": "3bf8057497870dcdc119fb9657154abe11cd778c",
+  "authors": [
+    {
+      "n": "Martin Luessi",
+      "e": "647005+mluessi@users.noreply.github.com",
+      "l": "mluessi"
+    }
+  ],
+  "changes": {
+    "mne/minimum_norm/inverse.py": {
+      "a": 35,
+      "d": 6
+    },
+    "mne/minimum_norm/tests/test_inverse.py": {
+      "a": 41,
+      "d": 3
+    }
+  }
+}

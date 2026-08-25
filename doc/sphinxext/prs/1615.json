@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "34c5a18f595420e63e1bcea0681fceb5b745973b",
+  "authors": [
+    {
+      "n": "Kevin Schiesser",
+      "e": "6759535+kevinjos@users.noreply.github.com",
+      "l": "kevinjos"
+    }
+  ],
+  "changes": {
+    "mne/filter.py": {
+      "a": 2,
+      "d": 0
+    }
+  }
+}

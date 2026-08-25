@@ -1,0 +1,32 @@
+{
+  "merge_commit_sha": "ead37bb15e89eff45d0813183867a1807f44aa7f",
+  "authors": [
+    {
+      "n": "Julia Guiomar Niso Galán",
+      "e": "4451818+guiomar@users.noreply.github.com",
+      "l": "guiomar"
+    }
+  ],
+  "changes": {
+    "mne/decoding/transformer.py": {
+      "a": 1,
+      "d": 1
+    },
+    "mne/time_frequency/multitaper.py": {
+      "a": 1,
+      "d": 1
+    },
+    "mne/time_frequency/psd.py": {
+      "a": 1,
+      "d": 1
+    },
+    "mne/viz/epochs.py": {
+      "a": 1,
+      "d": 1
+    },
+    "mne/viz/topomap.py": {
+      "a": 1,
+      "d": 1
+    }
+  }
+}

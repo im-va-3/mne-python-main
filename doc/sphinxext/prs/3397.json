@@ -1,0 +1,24 @@
+{
+  "merge_commit_sha": "48ef96d37a5f6d8c6648ca0f54002898fa759bab",
+  "authors": [
+    {
+      "n": "Félix Raimundo",
+      "e": "4716134+gamazeps@users.noreply.github.com",
+      "l": "gamazeps"
+    }
+  ],
+  "changes": {
+    "doc/contributing.rst": {
+      "a": 3,
+      "d": 0
+    },
+    "doc/whats_new.rst": {
+      "a": 2,
+      "d": 0
+    },
+    "mne/commands/mne_browse_raw.py": {
+      "a": 10,
+      "d": 0
+    }
+  }
+}

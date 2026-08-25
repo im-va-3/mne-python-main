@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "fe29b83339d418baf06b9b133622f0ec6b580d37",
+  "authors": [
+    {
+      "n": "Denis A. Engemann",
+      "e": "1908618+dengemann@users.noreply.github.com",
+      "l": "dengemann"
+    }
+  ],
+  "changes": {
+    "doc/source/python_tutorial.rst": {
+      "a": 17,
+      "d": 11
+    }
+  }
+}

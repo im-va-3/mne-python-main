@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "9efc216892d8e49c26515483e5ba021ba346f28c",
+  "authors": [
+    {
+      "n": "Teon L Brooks",
+      "e": "1578674+teonbrooks@users.noreply.github.com",
+      "l": "teonbrooks"
+    }
+  ],
+  "changes": {
+    "mne/minimum_norm/inverse.py": {
+      "a": 0,
+      "d": 11
+    }
+  }
+}

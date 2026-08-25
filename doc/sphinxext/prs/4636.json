@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "e9a5c6df6751f99c1fbc83fde6b780ba4305075b",
+  "authors": [
+    {
+      "n": "Clemens Brunner",
+      "e": "4377312+cbrnr@users.noreply.github.com",
+      "l": "cbrnr"
+    }
+  ],
+  "changes": {
+    "mne/channels/channels.py": {
+      "a": 11,
+      "d": 5
+    }
+  }
+}

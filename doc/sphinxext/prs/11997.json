@@ -1,0 +1,24 @@
+{
+  "merge_commit_sha": "e6afe5fb64c46df50256635b74cf583d5cc92727",
+  "authors": [
+    {
+      "n": "Daniel McCloy",
+      "e": "1810515+drammock@users.noreply.github.com",
+      "l": "drammock"
+    }
+  ],
+  "changes": {
+    "tools/dev_reports/Makefile": {
+      "a": 16,
+      "d": 0
+    },
+    "tools/dev_reports/check_steering_committee.py": {
+      "a": 0,
+      "d": 0
+    },
+    "tools/dev_reports/unacknowledged-bug-reports.jq": {
+      "a": 32,
+      "d": 0
+    }
+  }
+}

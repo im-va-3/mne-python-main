@@ -1,0 +1,20 @@
+{
+  "merge_commit_sha": "ca5440e1d0c7fe52e426c098b3d65d3ec007ebf9",
+  "authors": [
+    {
+      "n": "Chris Holdgraf",
+      "e": "1839645+choldgraf@users.noreply.github.com",
+      "l": "choldgraf"
+    }
+  ],
+  "changes": {
+    "mne/io/base.py": {
+      "a": 6,
+      "d": 4
+    },
+    "mne/io/fiff/tests/test_raw.py": {
+      "a": 2,
+      "d": 0
+    }
+  }
+}

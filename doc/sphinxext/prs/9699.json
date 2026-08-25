@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "22cd7747529db7895345917c4d3884a482ed8ab3",
+  "authors": [
+    {
+      "n": "Daniel McCloy",
+      "e": "1810515+drammock@users.noreply.github.com",
+      "l": "drammock"
+    }
+  ],
+  "changes": {
+    "tutorials/forward/25_automated_coreg.py": {
+      "a": 9,
+      "d": 0
+    }
+  }
+}

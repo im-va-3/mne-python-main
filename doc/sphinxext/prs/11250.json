@@ -1,0 +1,20 @@
+{
+  "merge_commit_sha": "3d13746dc3d08b1eff073dab5c119812de4d42ee",
+  "authors": [
+    {
+      "n": "Omer Shubi",
+      "e": "28459495+OmerShubi@users.noreply.github.com",
+      "l": "OmerShubi"
+    },
+    {
+      "n": "Alexandre Gramfort",
+      "e": "alexandre.gramfort@m4x.org"
+    }
+  ],
+  "changes": {
+    "tutorials/preprocessing/20_rejecting_bad_data.py": {
+      "a": 2,
+      "d": 2
+    }
+  }
+}

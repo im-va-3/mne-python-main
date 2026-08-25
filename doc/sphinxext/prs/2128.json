@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "7115364cbe9cdf5d558d42da86df3ff2ccb1440d",
+  "authors": [
+    {
+      "n": "Teon L Brooks",
+      "e": "1578674+teonbrooks@users.noreply.github.com",
+      "l": "teonbrooks"
+    }
+  ],
+  "changes": {
+    "doc/source/python_tutorial.rst": {
+      "a": 0,
+      "d": 1
+    }
+  }
+}

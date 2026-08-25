@@ -1,0 +1,20 @@
+{
+  "merge_commit_sha": "8e770f1de183940552b3b5415b1cbcb577c43e6b",
+  "authors": [
+    {
+      "n": "Rob Luke",
+      "e": "748691+rob-luke@users.noreply.github.com",
+      "l": "rob-luke"
+    }
+  ],
+  "changes": {
+    "mne/preprocessing/_optical_density.py": {
+      "a": 4,
+      "d": 3
+    },
+    "mne/preprocessing/tests/test_optical_density.py": {
+      "a": 4,
+      "d": 4
+    }
+  }
+}

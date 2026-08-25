@@ -1,0 +1,24 @@
+{
+  "merge_commit_sha": "1dbda634b22647f1ec86fc9946a31385024d7aab",
+  "authors": [
+    {
+      "n": "Denis A. Engemann",
+      "e": "1908618+dengemann@users.noreply.github.com",
+      "l": "dengemann"
+    }
+  ],
+  "changes": {
+    "examples/preprocessing/plot_ica_from_epochs.py": {
+      "a": 7,
+      "d": 5
+    },
+    "examples/preprocessing/plot_ica_from_raw.py": {
+      "a": 39,
+      "d": 21
+    },
+    "mne/preprocessing/ica.py": {
+      "a": 54,
+      "d": 39
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "merge_commit_sha": "df14ae94ff76572cf1896392910eb76f34a9f9da",
+  "authors": [
+    {
+      "n": "Mainak Jas",
+      "e": "15852194+jasmainak@users.noreply.github.com",
+      "l": "jasmainak"
+    },
+    {
+      "n": "Eric Larson",
+      "e": "larson.eric.d@gmail.com"
+    }
+  ],
+  "changes": {
+    "tutorials/preprocessing/plot_20_rejecting_bad_data.py": {
+      "a": 2,
+      "d": 1
+    }
+  }
+}

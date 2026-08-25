@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "3f4c82a7e7401a38c485deca7d9e3b655d605b62",
+  "authors": [
+    {
+      "n": "José C. García Alanis",
+      "e": "12409129+JoseAlanis@users.noreply.github.com",
+      "l": "JoseAlanis"
+    }
+  ],
+  "changes": {
+    "mne/datasets/limo/limo.py": {
+      "a": 21,
+      "d": 2
+    }
+  }
+}

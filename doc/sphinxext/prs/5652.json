@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "bf7eba6bf372b6b5878d59aa0a241edd28a6909d",
+  "authors": [
+    {
+      "n": "Johan van der Meer",
+      "e": "2698152+jnvandermeer@users.noreply.github.com",
+      "l": "jnvandermeer"
+    }
+  ],
+  "changes": {
+    "mne/io/brainvision/brainvision.py": {
+      "a": 9,
+      "d": 1
+    }
+  }
+}

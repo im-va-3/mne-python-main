@@ -1,0 +1,38 @@
+MNE-Python Development
+======================
+
+.. NOTE: this first section (up until "overview of contribution process") is
+   basically a copy/paste of CONTRIBUTING.md from the repository root, with one
+   sentence deleted to avoid self-referential linking. Changes made here should
+   be mirrored there, and vice-versa.
+
+MNE-Python is maintained by a community of scientists and research labs. The
+project accepts contributions in the form of bug reports, fixes, feature
+additions, and documentation improvements (including typo corrections). The
+best way to start contributing is by `opening an issue`_ on our GitHub page to
+discuss ideas for changes or enhancements, or to tell us about behavior that
+you think might be a bug. For *general troubleshooting* or *usage questions*,
+please consider posting your questions on our `MNE Forum`_.
+
+Users and contributors to MNE-Python are expected to follow our
+`code of conduct`_.
+
+The :ref:`contributing` has details on the preferred contribution workflow
+and the recommended system configuration for a smooth contribution/development
+experience.
+
+.. note::
+    It's a good idea to always reference the version of the contributing guide `on the development version of our website`_, as this will be the most up-to-date.
+
+.. _`opening an issue`: `open a new issue`_
+.. _`on the development version of our website`: https://mne.tools/dev/development/contributing.html
+
+.. toctree::
+   :hidden:
+
+   contributing
+   whats_new
+   roadmap
+   governance
+
+.. include:: ../links.inc

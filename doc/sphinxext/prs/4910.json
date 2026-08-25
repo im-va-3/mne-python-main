@@ -1,0 +1,24 @@
+{
+  "merge_commit_sha": "76904ec1506f3efc0bf59e2675e071160b3e92ed",
+  "authors": [
+    {
+      "n": "AnneSo",
+      "e": "7487059+annesodub@users.noreply.github.com",
+      "l": "annesodub"
+    }
+  ],
+  "changes": {
+    "doc/whats_new.rst": {
+      "a": 4,
+      "d": 0
+    },
+    "mne/annotations.py": {
+      "a": 43,
+      "d": 0
+    },
+    "mne/tests/test_annotations.py": {
+      "a": 17,
+      "d": 0
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "d3bff5a6570c071da590243b493cc59198b143f2",
+  "authors": [
+    {
+      "n": "José C. García Alanis",
+      "e": "12409129+JoseAlanis@users.noreply.github.com",
+      "l": "JoseAlanis"
+    }
+  ],
+  "changes": {
+    "mne/time_frequency/tfr.py": {
+      "a": 3,
+      "d": 3
+    }
+  }
+}

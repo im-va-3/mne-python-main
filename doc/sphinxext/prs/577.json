@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "da9bf190a491c426daf40c599fbf9943e1f29cca",
+  "authors": [
+    {
+      "n": "Denis A. Engemann",
+      "e": "1908618+dengemann@users.noreply.github.com",
+      "l": "dengemann"
+    }
+  ],
+  "changes": {
+    "mne/minimum_norm/inverse.py": {
+      "a": 6,
+      "d": 4
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "8e5ab68d05cb59a7e7d95275ca01d548432d2c9a",
+  "authors": [
+    {
+      "n": "Daniel McCloy",
+      "e": "1810515+drammock@users.noreply.github.com",
+      "l": "drammock"
+    }
+  ],
+  "changes": {
+    "mne/datasets/utils.py": {
+      "a": 1,
+      "d": 2
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "merge_commit_sha": "92ba16db1db88831a9a9ce618592943d706bad8a",
+  "authors": [
+    {
+      "n": "Mainak Jas",
+      "e": "15852194+jasmainak@users.noreply.github.com",
+      "l": "jasmainak"
+    }
+  ],
+  "changes": {
+    "doc/whats_new.rst": {
+      "a": 2,
+      "d": 0
+    },
+    "mne/viz/_3d.py": {
+      "a": 44,
+      "d": 15
+    },
+    "mne/viz/tests/test_3d.py": {
+      "a": 2,
+      "d": 0
+    }
+  }
+}

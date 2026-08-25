@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "ec1058fc03a4c5e4fb472916159a96398fe7b8cb",
+  "authors": [
+    {
+      "n": "Daniel McCloy",
+      "e": "1810515+drammock@users.noreply.github.com",
+      "l": "drammock"
+    }
+  ],
+  "changes": {
+    "doc/_templates/layout.html": {
+      "a": 2,
+      "d": 2
+    }
+  }
+}

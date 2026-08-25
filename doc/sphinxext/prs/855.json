@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "0070ef4308c22426583d1d62724f05535f8036b2",
+  "authors": [
+    {
+      "n": "Yaroslav Halchenko",
+      "e": "39889+yarikoptic@users.noreply.github.com",
+      "l": "yarikoptic"
+    }
+  ],
+  "changes": {
+    "debian/rules": {
+      "a": 3,
+      "d": 0
+    }
+  }
+}

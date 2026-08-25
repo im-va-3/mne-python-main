@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "5a299f1e43cc7465b282da62f461784ccd980592",
+  "authors": [
+    {
+      "n": "Chris Holdgraf",
+      "e": "1839645+choldgraf@users.noreply.github.com",
+      "l": "choldgraf"
+    }
+  ],
+  "changes": {
+    "mne/viz/utils.py": {
+      "a": 7,
+      "d": 7
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "355c67b45171bb92cb592b5603007e44fdb92c88",
+  "authors": [
+    {
+      "n": "Denis A. Engemann",
+      "e": "1908618+dengemann@users.noreply.github.com",
+      "l": "dengemann"
+    }
+  ],
+  "changes": {
+    "mne/io/egi/egi.py": {
+      "a": 1,
+      "d": 0
+    }
+  }
+}

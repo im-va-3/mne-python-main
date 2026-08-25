@@ -1,0 +1,20 @@
+{
+  "merge_commit_sha": "9475b278dedcaef42ba129058cd9bc7a6f18c4ac",
+  "authors": [
+    {
+      "n": "Dimitri Papadopoulos Orfanos",
+      "e": "3234522+DimitriPapadopoulos@users.noreply.github.com",
+      "l": "DimitriPapadopoulos"
+    }
+  ],
+  "changes": {
+    "mne/viz/evoked.py": {
+      "a": 1,
+      "d": 1
+    },
+    "mne/viz/topo.py": {
+      "a": 1,
+      "d": 1
+    }
+  }
+}

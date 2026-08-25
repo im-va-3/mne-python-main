@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "14aeefd220944c77888ab2afc506800c819e0d9b",
+  "authors": [
+    {
+      "n": "Teon L Brooks",
+      "e": "1578674+teonbrooks@users.noreply.github.com",
+      "l": "teonbrooks"
+    }
+  ],
+  "changes": {
+    "mne/preprocessing/ica.py": {
+      "a": 1,
+      "d": 1
+    }
+  }
+}

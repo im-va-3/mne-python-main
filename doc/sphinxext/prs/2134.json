@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "b17b1a69a84fef58a80f63bcfe5a9f8b24ac354c",
+  "authors": [
+    {
+      "n": "Teon L Brooks",
+      "e": "1578674+teonbrooks@users.noreply.github.com",
+      "l": "teonbrooks"
+    }
+  ],
+  "changes": {
+    "doc/source/whats_new.rst": {
+      "a": 4,
+      "d": 7
+    }
+  }
+}

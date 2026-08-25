@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "c493a447f7415b961bf187db8615dc77bc00ffbf",
+  "authors": [
+    {
+      "n": "Brad Buran",
+      "e": "3977643+bburan-galenea@users.noreply.github.com",
+      "l": "bburan-galenea"
+    }
+  ],
+  "changes": {
+    "mne/utils.py": {
+      "a": 11,
+      "d": 2
+    }
+  }
+}

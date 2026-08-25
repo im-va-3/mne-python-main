@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "948fc07b92f88f01c169211066bca2c2300fb654",
+  "authors": [
+    {
+      "n": "Chris Holdgraf",
+      "e": "1839645+choldgraf@users.noreply.github.com",
+      "l": "choldgraf"
+    }
+  ],
+  "changes": {
+    "mne/decoding/time_gen.py": {
+      "a": 1,
+      "d": 1
+    }
+  }
+}

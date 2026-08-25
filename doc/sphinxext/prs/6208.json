@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "ab49f9c124fe61f0d1c437ab33c2970833f2e71e",
+  "authors": [
+    {
+      "n": "Daniel McCloy",
+      "e": "1810515+drammock@users.noreply.github.com",
+      "l": "drammock"
+    }
+  ],
+  "changes": {
+    "doc/manual/preprocessing/filter.rst": {
+      "a": 0,
+      "d": 5
+    }
+  }
+}

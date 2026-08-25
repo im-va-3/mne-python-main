@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "4a9a5866ba6aa35c877d7188af625a880980fc0b",
+  "authors": [
+    {
+      "n": "Dimitri Papadopoulos Orfanos",
+      "e": "3234522+DimitriPapadopoulos@users.noreply.github.com",
+      "l": "DimitriPapadopoulos"
+    }
+  ],
+  "changes": {
+    "doc/_static/institution_logos/CEA.png": {
+      "a": 0,
+      "d": 0
+    }
+  }
+}

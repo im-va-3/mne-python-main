@@ -1,0 +1,24 @@
+{
+  "merge_commit_sha": "271eb1076f9ce5c1afc40fc9cd5356bdc7f37df2",
+  "authors": [
+    {
+      "n": "ChristinaZhao",
+      "e": "5280364+ChristinaZhao@users.noreply.github.com",
+      "l": "ChristinaZhao"
+    },
+    {
+      "n": "Stefan Appelhoff",
+      "e": "stefan.appelhoff@mailbox.org"
+    },
+    {
+      "n": "Stefan Appelhoff",
+      "e": "stefan.appelhoff@mailbox.org"
+    }
+  ],
+  "changes": {
+    "mne/datasets/eegbci/eegbci.py": {
+      "a": 5,
+      "d": 19
+    }
+  }
+}

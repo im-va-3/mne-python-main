@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "cd5970dddd3f250dfc49f127adf890acbbcf1c39",
+  "authors": [
+    {
+      "n": "Jean-Rémi KING",
+      "e": "4881164+kingjr@users.noreply.github.com",
+      "l": "kingjr"
+    }
+  ],
+  "changes": {
+    "mne/decoding/time_gen.py": {
+      "a": 60,
+      "d": 23
+    }
+  }
+}

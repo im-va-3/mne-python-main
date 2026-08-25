@@ -1,0 +1,20 @@
+{
+  "merge_commit_sha": "176b78c517e20c0b6b9ae98382395a91e78aa322",
+  "authors": [
+    {
+      "n": "Daniel McCloy",
+      "e": "1810515+drammock@users.noreply.github.com",
+      "l": "drammock"
+    }
+  ],
+  "changes": {
+    "doc/_static/js/contrib-avatars.js": {
+      "a": 5,
+      "d": 3
+    },
+    "tools/generate_codemeta.py": {
+      "a": 1,
+      "d": 1
+    }
+  }
+}

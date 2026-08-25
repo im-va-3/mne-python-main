@@ -1,0 +1,24 @@
+{
+  "merge_commit_sha": "b23d87371da5970c79f2d8b031af6071efef8482",
+  "authors": [
+    {
+      "n": "Jon Houck",
+      "e": "857583+jhouck@users.noreply.github.com",
+      "l": "jhouck"
+    }
+  ],
+  "changes": {
+    "doc/whats_new.rst": {
+      "a": 3,
+      "d": 1
+    },
+    "mne/label.py": {
+      "a": 5,
+      "d": 1
+    },
+    "mne/tests/test_label.py": {
+      "a": 3,
+      "d": 1
+    }
+  }
+}

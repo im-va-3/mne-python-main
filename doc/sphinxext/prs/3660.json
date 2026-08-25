@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "fcad5f6c42b6d733cef5861b7d9281109e1cd5d4",
+  "authors": [
+    {
+      "n": "Chris Holdgraf",
+      "e": "1839645+choldgraf@users.noreply.github.com",
+      "l": "choldgraf"
+    }
+  ],
+  "changes": {
+    "mne/viz/evoked.py": {
+      "a": 1,
+      "d": 1
+    }
+  }
+}

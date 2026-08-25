@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "bc57aeaa36ba002499a5de623e187e9a74c8d035",
+  "authors": [
+    {
+      "n": "Christopher J. Bailey",
+      "e": "5610076+cjayb@users.noreply.github.com",
+      "l": "cjayb"
+    }
+  ],
+  "changes": {
+    "mne/io/fiff/raw.py": {
+      "a": 15,
+      "d": 11
+    }
+  }
+}

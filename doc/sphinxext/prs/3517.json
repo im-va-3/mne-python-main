@@ -1,0 +1,20 @@
+{
+  "merge_commit_sha": "e09124ed975eb7877897226c150979fda8976521",
+  "authors": [
+    {
+      "n": "Mainak Jas",
+      "e": "15852194+jasmainak@users.noreply.github.com",
+      "l": "jasmainak"
+    }
+  ],
+  "changes": {
+    "mne/annotations.py": {
+      "a": 3,
+      "d": 1
+    },
+    "mne/viz/tests/test_raw.py": {
+      "a": 8,
+      "d": 0
+    }
+  }
+}

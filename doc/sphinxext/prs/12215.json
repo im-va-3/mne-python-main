@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "239e574ee2f16f1c87dc3062df1876b6f5a5b1b5",
+  "authors": [
+    {
+      "n": "Daniel McCloy",
+      "e": "1810515+drammock@users.noreply.github.com",
+      "l": "drammock"
+    }
+  ],
+  "changes": {
+    "tools/circleci_dependencies.sh": {
+      "a": 1,
+      "d": 0
+    }
+  }
+}

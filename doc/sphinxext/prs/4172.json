@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "04584cd6d9cadfd81f521bfde92fafab2bad2c66",
+  "authors": [
+    {
+      "n": "Jean-Rémi KING",
+      "e": "4881164+kingjr@users.noreply.github.com",
+      "l": "kingjr"
+    }
+  ],
+  "changes": {
+    "doc/contributing.rst": {
+      "a": 27,
+      "d": 1
+    }
+  }
+}

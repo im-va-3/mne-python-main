@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "ba0b59cabf25d25989ca10bf4df5bdd2e8ef9b24",
+  "authors": [
+    {
+      "n": "Daniel McCloy",
+      "e": "1810515+drammock@users.noreply.github.com",
+      "l": "drammock"
+    }
+  ],
+  "changes": {
+    "mne/viz/tests/test_epochs.py": {
+      "a": 3,
+      "d": 2
+    }
+  }
+}

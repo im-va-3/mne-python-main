@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "d6a2a01f1c0db51ca8d397cb238add43afd035a8",
+  "authors": [
+    {
+      "n": "Hari Bharadwaj",
+      "e": "5589178+haribharadwaj@users.noreply.github.com",
+      "l": "haribharadwaj"
+    }
+  ],
+  "changes": {
+    "mne/utils.py": {
+      "a": 236,
+      "d": 44
+    }
+  }
+}

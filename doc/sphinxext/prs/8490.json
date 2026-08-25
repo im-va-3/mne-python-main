@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "28b36c06a744074b54993128fa1908ea10464ff2",
+  "authors": [
+    {
+      "n": "Daniel McCloy",
+      "e": "1810515+drammock@users.noreply.github.com",
+      "l": "drammock"
+    }
+  ],
+  "changes": {
+    "azure-pipelines.yml": {
+      "a": 11,
+      "d": 11
+    }
+  }
+}

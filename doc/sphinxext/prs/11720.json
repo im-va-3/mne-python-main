@@ -1,0 +1,24 @@
+{
+  "merge_commit_sha": "a8ec5d067ab8cc2ec8004d8dc291eebe893287d8",
+  "authors": [
+    {
+      "n": "Gennadiy",
+      "e": "7503709+Genuster@users.noreply.github.com",
+      "l": "Genuster"
+    }
+  ],
+  "changes": {
+    "doc/changes/latest.inc": {
+      "a": 1,
+      "d": 0
+    },
+    "doc/changes/names.inc": {
+      "a": 2,
+      "d": 0
+    },
+    "mne/viz/utils.py": {
+      "a": 8,
+      "d": 3
+    }
+  }
+}

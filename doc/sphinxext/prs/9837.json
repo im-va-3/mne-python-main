@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "a04b6e518ce20ec0835f8813d5b7155b6bd7e5d5",
+  "authors": [
+    {
+      "n": "Daniel McCloy",
+      "e": "1810515+drammock@users.noreply.github.com",
+      "l": "drammock"
+    }
+  ],
+  "changes": {
+    "tutorials/preprocessing/70_fnirs_processing.py": {
+      "a": 2,
+      "d": 2
+    }
+  }
+}

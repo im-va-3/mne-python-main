@@ -1,0 +1,20 @@
+{
+  "merge_commit_sha": "512fafcf40faf457bb9eae577290df7e9ec34fc9",
+  "authors": [
+    {
+      "n": "Christian Brodbeck",
+      "e": "145771+christianbrodbeck@users.noreply.github.com",
+      "l": "christianbrodbeck"
+    }
+  ],
+  "changes": {
+    "mne/coreg.py": {
+      "a": 1,
+      "d": 1
+    },
+    "mne/tests/test_coreg.py": {
+      "a": 27,
+      "d": 26
+    }
+  }
+}

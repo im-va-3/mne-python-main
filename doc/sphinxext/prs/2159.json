@@ -1,0 +1,24 @@
+{
+  "merge_commit_sha": "f03d958900a7d84828a32b80d08720ec43326224",
+  "authors": [
+    {
+      "n": "Teon L Brooks",
+      "e": "1578674+teonbrooks@users.noreply.github.com",
+      "l": "teonbrooks"
+    }
+  ],
+  "changes": {
+    "mne/viz/evoked.py": {
+      "a": 1,
+      "d": 1
+    },
+    "mne/viz/ica.py": {
+      "a": 48,
+      "d": 13
+    },
+    "mne/viz/tests/test_ica.py": {
+      "a": 16,
+      "d": 1
+    }
+  }
+}

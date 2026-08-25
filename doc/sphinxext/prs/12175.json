@@ -1,0 +1,20 @@
+{
+  "merge_commit_sha": "55b0184b94ec1c3d6b2559eeed383e760220f516",
+  "authors": [
+    {
+      "n": "Daniel McCloy",
+      "e": "1810515+drammock@users.noreply.github.com",
+      "l": "drammock"
+    }
+  ],
+  "changes": {
+    "tools/dev/Makefile": {
+      "a": 13,
+      "d": 2
+    },
+    "tools/dev/unacknowledged-issues.jq": {
+      "a": 2,
+      "d": 2
+    }
+  }
+}

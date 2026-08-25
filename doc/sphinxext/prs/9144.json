@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "4ca89e6322a583fd16bfe957d98314b2ce8f0f72",
+  "authors": [
+    {
+      "n": "Ana Radanovic",
+      "e": "79697247+anaradanovic@users.noreply.github.com",
+      "l": "anaradanovic"
+    }
+  ],
+  "changes": {
+    "tutorials/source-modeling/plot_dipole_orientations.py": {
+      "a": 10,
+      "d": 16
+    }
+  }
+}

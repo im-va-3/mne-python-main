@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "1e2ddcff56ddfe887800d22000b6cef56b161e8c",
+  "authors": [
+    {
+      "n": "Christian Brodbeck",
+      "e": "145771+christianbrodbeck@users.noreply.github.com",
+      "l": "christianbrodbeck"
+    }
+  ],
+  "changes": {
+    "mne/epochs.py": {
+      "a": 47,
+      "d": 29
+    }
+  }
+}

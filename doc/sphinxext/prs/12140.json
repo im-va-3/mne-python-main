@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "b9983df4673dbcb36155509c3b3c4b4352798402",
+  "authors": [
+    {
+      "n": "Dimitri Papadopoulos Orfanos",
+      "e": "3234522+DimitriPapadopoulos@users.noreply.github.com",
+      "l": "DimitriPapadopoulos"
+    }
+  ],
+  "changes": {
+    "examples/preprocessing/eeg_bridging.py": {
+      "a": 1,
+      "d": 1
+    }
+  }
+}

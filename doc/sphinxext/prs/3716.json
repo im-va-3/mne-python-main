@@ -1,0 +1,24 @@
+{
+  "merge_commit_sha": "31883dfcef70860aa1f21238031773ebfe740317",
+  "authors": [
+    {
+      "n": "Jean-Rémi KING",
+      "e": "4881164+kingjr@users.noreply.github.com",
+      "l": "kingjr"
+    }
+  ],
+  "changes": {
+    "doc/whats_new.rst": {
+      "a": 2,
+      "d": 0
+    },
+    "mne/io/meas_info.py": {
+      "a": 5,
+      "d": 0
+    },
+    "mne/io/tests/test_meas_info.py": {
+      "a": 5,
+      "d": 0
+    }
+  }
+}

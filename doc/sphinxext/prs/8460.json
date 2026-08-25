@@ -1,0 +1,24 @@
+{
+  "merge_commit_sha": "844847cd70afa78e21b6262f940ee0f1aecdcf3e",
+  "authors": [
+    {
+      "n": "Adam Li",
+      "e": "3460267+adam2392@users.noreply.github.com",
+      "l": "adam2392"
+    }
+  ],
+  "changes": {
+    "doc/changes/latest.inc": {
+      "a": 2,
+      "d": 0
+    },
+    "mne/channels/montage.py": {
+      "a": 45,
+      "d": 1
+    },
+    "mne/channels/tests/test_montage.py": {
+      "a": 12,
+      "d": 0
+    }
+  }
+}

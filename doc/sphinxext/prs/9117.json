@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "c638f74ac727aeaca3b9616e56115b990a84c7ba",
+  "authors": [
+    {
+      "n": "Daniel McCloy",
+      "e": "1810515+drammock@users.noreply.github.com",
+      "l": "drammock"
+    }
+  ],
+  "changes": {
+    "mne/datasets/limo/limo.py": {
+      "a": 6,
+      "d": 9
+    }
+  }
+}

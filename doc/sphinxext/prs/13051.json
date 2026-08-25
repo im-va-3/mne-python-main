@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "5fec4e024a963c3f628693ab172d5b77cbafe6db",
+  "authors": [
+    {
+      "n": "Simon Kern",
+      "e": "14980558+skjerns@users.noreply.github.com",
+      "l": "skjerns"
+    }
+  ],
+  "changes": {
+    "mne/channels/channels.py": {
+      "a": 15,
+      "d": 5
+    }
+  }
+}

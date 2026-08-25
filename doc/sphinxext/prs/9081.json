@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "94870a5532a43a0ca850d58789a77ceeb532a3b5",
+  "authors": [
+    {
+      "n": "Ram PARI",
+      "e": "13279036+ramkpari@users.noreply.github.com",
+      "l": "ramkpari"
+    }
+  ],
+  "changes": {
+    "tutorials/machine-learning/plot_receptive_field.py": {
+      "a": 9,
+      "d": 27
+    }
+  }
+}

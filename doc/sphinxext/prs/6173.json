@@ -1,0 +1,20 @@
+{
+  "merge_commit_sha": "52949f1bea6d21fc286997838239e3b8109998de",
+  "authors": [
+    {
+      "n": "Daniel McCloy",
+      "e": "1810515+drammock@users.noreply.github.com",
+      "l": "drammock"
+    }
+  ],
+  "changes": {
+    "mne/viz/evoked.py": {
+      "a": 2,
+      "d": 0
+    },
+    "mne/viz/utils.py": {
+      "a": 3,
+      "d": 2
+    }
+  }
+}

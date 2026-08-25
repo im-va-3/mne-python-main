@@ -1,0 +1,20 @@
+{
+  "merge_commit_sha": "855edbf48835bcee80e773eb7047d0a4caa14a1c",
+  "authors": [
+    {
+      "n": "Jeff Stout",
+      "e": "2371720+jstout211@users.noreply.github.com",
+      "l": "jstout211"
+    },
+    {
+      "n": "Jeff Stout",
+      "e": "stoutjd@nih.gov"
+    }
+  ],
+  "changes": {
+    "mne/_freesurfer.py": {
+      "a": 6,
+      "d": 0
+    }
+  }
+}

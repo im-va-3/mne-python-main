@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "adb70865accfbf2e473d0f78e5be69c090581c0d",
+  "authors": [
+    {
+      "n": "Daniel McCloy",
+      "e": "1810515+drammock@users.noreply.github.com",
+      "l": "drammock"
+    }
+  ],
+  "changes": {
+    ".github/ISSUE_TEMPLATE/glossary.md": {
+      "a": 13,
+      "d": 0
+    }
+  }
+}

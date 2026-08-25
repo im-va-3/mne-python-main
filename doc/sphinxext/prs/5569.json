@@ -1,0 +1,20 @@
+{
+  "merge_commit_sha": "fd23ba8bfc1f11dd046abcfa89868f7dd8569d76",
+  "authors": [
+    {
+      "n": "Mainak Jas",
+      "e": "15852194+jasmainak@users.noreply.github.com",
+      "l": "jasmainak"
+    }
+  ],
+  "changes": {
+    "mne/viz/ica.py": {
+      "a": 4,
+      "d": 1
+    },
+    "mne/viz/tests/test_ica.py": {
+      "a": 1,
+      "d": 0
+    }
+  }
+}

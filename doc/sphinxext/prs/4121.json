@@ -1,0 +1,24 @@
+{
+  "merge_commit_sha": "992662a474192778f709dfbc588f4e1fcfcab916",
+  "authors": [
+    {
+      "n": "Chris Holdgraf",
+      "e": "1839645+choldgraf@users.noreply.github.com",
+      "l": "choldgraf"
+    }
+  ],
+  "changes": {
+    "mne/decoding/receptive_field.py": {
+      "a": 25,
+      "d": 14
+    },
+    "mne/decoding/tests/test_receptive_field.py": {
+      "a": 1,
+      "d": 1
+    },
+    "tutorials/plot_receptive_field.py": {
+      "a": 3,
+      "d": 3
+    }
+  }
+}

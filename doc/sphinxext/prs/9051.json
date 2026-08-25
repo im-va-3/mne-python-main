@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "18cd16b971902b5bed979fb5a5c88a3e318245b5",
+  "authors": [
+    {
+      "n": "Ana Radanovic",
+      "e": "79697247+anaradanovic@users.noreply.github.com",
+      "l": "anaradanovic"
+    }
+  ],
+  "changes": {
+    "mne/source_estimate.py": {
+      "a": 4,
+      "d": 8
+    }
+  }
+}

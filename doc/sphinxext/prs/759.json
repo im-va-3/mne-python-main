@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "f2c1d8c6566ee5ddd95470278d7178a699273b3e",
+  "authors": [
+    {
+      "n": "Christian Brodbeck",
+      "e": "145771+christianbrodbeck@users.noreply.github.com",
+      "l": "christianbrodbeck"
+    }
+  ],
+  "changes": {
+    "mne/fiff/kit/kit.py": {
+      "a": 3,
+      "d": 3
+    }
+  }
+}

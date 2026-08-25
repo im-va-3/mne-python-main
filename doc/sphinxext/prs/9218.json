@@ -1,0 +1,24 @@
+{
+  "merge_commit_sha": "58ccac70efcea3c4c785a14b4ca593523e466237",
+  "authors": [
+    {
+      "n": "Daniel McCloy",
+      "e": "1810515+drammock@users.noreply.github.com",
+      "l": "drammock"
+    }
+  ],
+  "changes": {
+    "doc/references.bib": {
+      "a": 10,
+      "d": 0
+    },
+    "mne/datasets/sleep_physionet/_utils.py": {
+      "a": 3,
+      "d": 9
+    },
+    "mne/inverse_sparse/mxne_optim.py": {
+      "a": 21,
+      "d": 57
+    }
+  }
+}

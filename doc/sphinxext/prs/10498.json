@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "5a6b5fc08bfa95642fdeb22d6e2a477845528dfb",
+  "authors": [
+    {
+      "n": "Clemens Brunner",
+      "e": "4377312+cbrnr@users.noreply.github.com",
+      "l": "cbrnr"
+    }
+  ],
+  "changes": {
+    "tutorials/evoked/20_visualize_evoked.py": {
+      "a": 62,
+      "d": 65
+    }
+  }
+}

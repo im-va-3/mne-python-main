@@ -1,0 +1,24 @@
+{
+  "merge_commit_sha": "1033764b80ef6154d8905b7b01113079991d78c8",
+  "authors": [
+    {
+      "n": "Dimitri Papadopoulos Orfanos",
+      "e": "3234522+DimitriPapadopoulos@users.noreply.github.com",
+      "l": "DimitriPapadopoulos"
+    }
+  ],
+  "changes": {
+    "Makefile": {
+      "a": 1,
+      "d": 1
+    },
+    "ignore_words.txt": {
+      "a": 0,
+      "d": 7
+    },
+    "mne/simulation/metrics/metrics.py": {
+      "a": 1,
+      "d": 1
+    }
+  }
+}

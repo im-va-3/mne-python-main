@@ -1,0 +1,20 @@
+{
+  "merge_commit_sha": "f68f4cfd351b48add9626af5993ab475a9c9af35",
+  "authors": [
+    {
+      "n": "Jen Evans",
+      "e": "18194766+jwe080@users.noreply.github.com",
+      "l": "jwe080"
+    }
+  ],
+  "changes": {
+    "mne/io/egi/events.py": {
+      "a": 5,
+      "d": 3
+    },
+    "mne/io/egi/general.py": {
+      "a": 2,
+      "d": 0
+    }
+  }
+}

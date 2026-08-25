@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "e05e77c92480871f0be38a184894d2ef48694844",
+  "authors": [
+    {
+      "n": "Nabil Alibou",
+      "e": "63203348+nabilalibou@users.noreply.github.com",
+      "l": "nabilalibou"
+    }
+  ],
+  "changes": {
+    "mne/_fiff/meas_info.py": {
+      "a": 3,
+      "d": 3
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "merge_commit_sha": "ff45e9fc45fbb18776c4a5162a1b437d2e3b9345",
+  "authors": [
+    {
+      "n": "Daniel McCloy",
+      "e": "1810515+drammock@users.noreply.github.com",
+      "l": "drammock"
+    }
+  ],
+  "changes": {
+    "tutorials/discussions/plot_background_filtering.py": {
+      "a": 1,
+      "d": 1
+    },
+    "tutorials/source-modeling/plot_background_freesurfer.py": {
+      "a": 5,
+      "d": 3
+    }
+  }
+}

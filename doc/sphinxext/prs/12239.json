@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "a8422368e91d678c297429f19e496666a2a5e19f",
+  "authors": [
+    {
+      "n": "Nikolai Kapralov",
+      "e": "13971785+ctrltz@users.noreply.github.com",
+      "l": "ctrltz"
+    }
+  ],
+  "changes": {
+    "mne/utils/docs.py": {
+      "a": 2,
+      "d": 2
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "a7664c58674412cf4e842960581406533edcc615",
+  "authors": [
+    {
+      "n": "Daniel McCloy",
+      "e": "1810515+drammock@users.noreply.github.com",
+      "l": "drammock"
+    }
+  ],
+  "changes": {
+    "doc/glossary.rst": {
+      "a": 12,
+      "d": 12
+    }
+  }
+}

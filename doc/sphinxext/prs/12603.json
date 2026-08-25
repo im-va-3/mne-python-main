@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "1c5b39ff1d99bbcb2fc0e0071a989b3f3845ff30",
+  "authors": [
+    {
+      "n": "Dimitri Papadopoulos Orfanos",
+      "e": "3234522+DimitriPapadopoulos@users.noreply.github.com",
+      "l": "DimitriPapadopoulos"
+    }
+  ],
+  "changes": {
+    "tools/dev/ensure_headers.py": {
+      "a": 1,
+      "d": 2
+    }
+  }
+}

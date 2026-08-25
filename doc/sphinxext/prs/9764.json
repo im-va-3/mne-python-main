@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "6c0006dfc73588927936b95a1ae364556a55fbc0",
+  "authors": [
+    {
+      "n": "Adam Li",
+      "e": "3460267+adam2392@users.noreply.github.com",
+      "l": "adam2392"
+    }
+  ],
+  "changes": {
+    "mne/datasets/config.py": {
+      "a": 32,
+      "d": 72
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "merge_commit_sha": "ead743b4e6fbeb37aa8eca5547b958931f150c90",
+  "authors": [
+    {
+      "n": "Jean-Rémi KING",
+      "e": "4881164+kingjr@users.noreply.github.com",
+      "l": "kingjr"
+    },
+    {
+      "n": "Eric Larson",
+      "e": "larson.eric.d@gmail.com"
+    }
+  ],
+  "changes": {
+    "doc/changes/latest.inc": {
+      "a": 2,
+      "d": 0
+    },
+    "mne/viz/_3d.py": {
+      "a": 2,
+      "d": 2
+    }
+  }
+}

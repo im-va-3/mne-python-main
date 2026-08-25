@@ -1,0 +1,20 @@
+{
+  "merge_commit_sha": "341a078160db624bc86a9c3be26ae3e1f1adbb4a",
+  "authors": [
+    {
+      "n": "Kaisu Lankinen",
+      "e": "41806798+klankinen@users.noreply.github.com",
+      "l": "klankinen"
+    }
+  ],
+  "changes": {
+    "examples/inverse/plot_source_space_snr.py": {
+      "a": 100,
+      "d": 0
+    },
+    "mne/source_estimate.py": {
+      "a": 71,
+      "d": 0
+    }
+  }
+}

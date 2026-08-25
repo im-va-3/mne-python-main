@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "a99d78a7c3b865bd7c34a348e14e06dfebd4bb28",
+  "authors": [
+    {
+      "n": "Clemens Brunner",
+      "e": "4377312+cbrnr@users.noreply.github.com",
+      "l": "cbrnr"
+    }
+  ],
+  "changes": {
+    "mne/io/edf/edf.py": {
+      "a": 7,
+      "d": 5
+    }
+  }
+}

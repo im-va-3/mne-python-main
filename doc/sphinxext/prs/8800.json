@@ -1,0 +1,20 @@
+{
+  "merge_commit_sha": "cff4c3709aaa9f2a50e10fca29c199cd2f5bb526",
+  "authors": [
+    {
+      "n": "Yu-Han Luo",
+      "e": "29604854+yh-luo@users.noreply.github.com",
+      "l": "yh-luo"
+    }
+  ],
+  "changes": {
+    "doc/changes/latest.inc": {
+      "a": 2,
+      "d": 0
+    },
+    "mne/commands/mne_make_scalp_surfaces.py": {
+      "a": 2,
+      "d": 2
+    }
+  }
+}

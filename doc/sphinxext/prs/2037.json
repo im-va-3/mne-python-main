@@ -1,0 +1,20 @@
+{
+  "merge_commit_sha": "fb2ec6ceb116576c22e35caf8a02da1608a52dc5",
+  "authors": [
+    {
+      "n": "Teon L Brooks",
+      "e": "1578674+teonbrooks@users.noreply.github.com",
+      "l": "teonbrooks"
+    }
+  ],
+  "changes": {
+    "mne/preprocessing/ecg.py": {
+      "a": 16,
+      "d": 8
+    },
+    "mne/preprocessing/eog.py": {
+      "a": 10,
+      "d": 4
+    }
+  }
+}

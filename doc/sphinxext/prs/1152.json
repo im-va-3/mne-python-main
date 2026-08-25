@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "e6b948dbd4afb4fd4f129e822f16f5d60a13bc92",
+  "authors": [
+    {
+      "n": "Denis A. Engemann",
+      "e": "1908618+dengemann@users.noreply.github.com",
+      "l": "dengemann"
+    }
+  ],
+  "changes": {
+    "doc/source/index.rst": {
+      "a": 8,
+      "d": 0
+    }
+  }
+}

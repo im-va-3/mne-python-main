@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "19c4b877fba3810341354c6445f21c9e1cd27b20",
+  "authors": [
+    {
+      "n": "Daniel McCloy",
+      "e": "1810515+drammock@users.noreply.github.com",
+      "l": "drammock"
+    }
+  ],
+  "changes": {
+    "doc/install/mne_python.rst": {
+      "a": 6,
+      "d": 0
+    }
+  }
+}

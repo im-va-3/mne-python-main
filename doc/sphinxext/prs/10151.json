@@ -1,0 +1,24 @@
+{
+  "merge_commit_sha": "fecf5411d28f47dcb4ff379976a1b4813edc45a9",
+  "authors": [
+    {
+      "n": "Adam Li",
+      "e": "3460267+adam2392@users.noreply.github.com",
+      "l": "adam2392"
+    },
+    {
+      "n": "Eric Larson",
+      "e": "larson.eric.d@gmail.com"
+    }
+  ],
+  "changes": {
+    "mne/epochs.py": {
+      "a": 21,
+      "d": 0
+    },
+    "tutorials/io/60_ctf_bst_auditory.py": {
+      "a": 4,
+      "d": 0
+    }
+  }
+}

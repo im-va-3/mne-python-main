@@ -1,0 +1,24 @@
+{
+  "merge_commit_sha": "3154e6dc07b0da3b6709172b0c0348dbed6ad21d",
+  "authors": [
+    {
+      "n": "Tommy Clausner",
+      "e": "33838917+TommyClausner@users.noreply.github.com",
+      "l": "TommyClausner"
+    }
+  ],
+  "changes": {
+    "doc/whats_new.rst": {
+      "a": 4,
+      "d": 0
+    },
+    "mne/preprocessing/peak_finder.py": {
+      "a": 10,
+      "d": 4
+    },
+    "mne/preprocessing/tests/test_peak_finder.py": {
+      "a": 35,
+      "d": 4
+    }
+  }
+}

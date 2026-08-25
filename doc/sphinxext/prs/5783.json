@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "857de6e1c1e66f1f8b7adad0d98529ab744d6313",
+  "authors": [
+    {
+      "n": "Jon Houck",
+      "e": "857583+jhouck@users.noreply.github.com",
+      "l": "jhouck"
+    }
+  ],
+  "changes": {
+    "examples/decoding/plot_decoding_spoc_CMC.py": {
+      "a": 10,
+      "d": 3
+    }
+  }
+}

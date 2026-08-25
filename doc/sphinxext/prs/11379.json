@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "4a1fec00207a0c9b1281cb2ad1e761bd6b866a66",
+  "authors": [
+    {
+      "n": "Britta Westner",
+      "e": "20129119+britta-wstnr@users.noreply.github.com",
+      "l": "britta-wstnr"
+    }
+  ],
+  "changes": {
+    "doc/install/contributing.rst": {
+      "a": 6,
+      "d": 3
+    }
+  }
+}

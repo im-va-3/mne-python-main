@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "babf7780c8479a7d260a98ae11b67372c25bdb7d",
+  "authors": [
+    {
+      "n": "Clemens Brunner",
+      "e": "4377312+cbrnr@users.noreply.github.com",
+      "l": "cbrnr"
+    }
+  ],
+  "changes": {
+    "tutorials/evoked/30_eeg_erp.py": {
+      "a": 1,
+      "d": 1
+    }
+  }
+}

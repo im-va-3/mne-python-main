@@ -1,0 +1,20 @@
+{
+  "merge_commit_sha": "83e95452fd1d0f2ded57481fd1a7312299011999",
+  "authors": [
+    {
+      "n": "Christian Brodbeck",
+      "e": "145771+christianbrodbeck@users.noreply.github.com",
+      "l": "christianbrodbeck"
+    }
+  ],
+  "changes": {
+    "mne/tests/test_transforms.py": {
+      "a": 1,
+      "d": 1
+    },
+    "mne/transforms.py": {
+      "a": 10,
+      "d": 0
+    }
+  }
+}

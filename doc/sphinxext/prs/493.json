@@ -1,0 +1,20 @@
+{
+  "merge_commit_sha": "6f098e5e25667b6a816380685cf25cf31ee68c9d",
+  "authors": [
+    {
+      "n": "Denis A. Engemann",
+      "e": "1908618+dengemann@users.noreply.github.com",
+      "l": "dengemann"
+    }
+  ],
+  "changes": {
+    "mne/fiff/pick.py": {
+      "a": 15,
+      "d": 4
+    },
+    "mne/viz.py": {
+      "a": 2,
+      "d": 1
+    }
+  }
+}

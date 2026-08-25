@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "0f5dd61b9f778b49b4dae1acbb7490e1086b344b",
+  "authors": [
+    {
+      "n": "Mainak Jas",
+      "e": "15852194+jasmainak@users.noreply.github.com",
+      "l": "jasmainak"
+    }
+  ],
+  "changes": {
+    "doc/conf.py": {
+      "a": 8,
+      "d": 3
+    }
+  }
+}

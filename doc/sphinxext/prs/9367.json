@@ -1,0 +1,24 @@
+{
+  "merge_commit_sha": "cb3c34f9a32fdc78777e2e4a0ecf0f7258860182",
+  "authors": [
+    {
+      "n": "Rob Luke",
+      "e": "748691+rob-luke@users.noreply.github.com",
+      "l": "rob-luke"
+    }
+  ],
+  "changes": {
+    "mne/data/html_templates.py": {
+      "a": 1,
+      "d": 1
+    },
+    "mne/io/meas_info.py": {
+      "a": 2,
+      "d": 1
+    },
+    "tutorials/preprocessing/70_fnirs_processing.py": {
+      "a": 2,
+      "d": 1
+    }
+  }
+}

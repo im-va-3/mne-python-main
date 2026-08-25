@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "92e8becbc2afedaf0ffde3d6933e042396d7eb73",
+  "authors": [
+    {
+      "n": "Chris Holdgraf",
+      "e": "1839645+choldgraf@users.noreply.github.com",
+      "l": "choldgraf"
+    }
+  ],
+  "changes": {
+    "logo/logo_hex.svg": {
+      "a": 189,
+      "d": 0
+    }
+  }
+}

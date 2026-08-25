@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "0441154d287f3c5593843082389cf188df740887",
+  "authors": [
+    {
+      "n": "Daniel McCloy",
+      "e": "1810515+drammock@users.noreply.github.com",
+      "l": "drammock"
+    }
+  ],
+  "changes": {
+    "mne/viz/topomap.py": {
+      "a": 5,
+      "d": 8
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "merge_commit_sha": "f7c223e53b21c668191c1b36166850b5e3041511",
+  "authors": [
+    {
+      "n": "Félix Raimundo",
+      "e": "4716134+gamazeps@users.noreply.github.com",
+      "l": "gamazeps"
+    }
+  ],
+  "changes": {
+    "mne/baseline.py": {
+      "a": 7,
+      "d": 4
+    },
+    "mne/time_frequency/tfr.py": {
+      "a": 35,
+      "d": 14
+    }
+  }
+}

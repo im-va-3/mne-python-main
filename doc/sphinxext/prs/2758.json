@@ -1,0 +1,28 @@
+{
+  "merge_commit_sha": "919564156ced45329039cf4bd277396c5653f653",
+  "authors": [
+    {
+      "n": "Mainak Jas",
+      "e": "15852194+jasmainak@users.noreply.github.com",
+      "l": "jasmainak"
+    }
+  ],
+  "changes": {
+    "doc/manual/channel_interpolation.rst": {
+      "a": 74,
+      "d": 0
+    },
+    "doc/manual/index.rst": {
+      "a": 1,
+      "d": 0
+    },
+    "doc/whats_new.rst": {
+      "a": 2,
+      "d": 0
+    },
+    "mne/channels/interpolation.py": {
+      "a": 8,
+      "d": 24
+    }
+  }
+}

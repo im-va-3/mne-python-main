@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "402077808100f5c0f6e90ba64176bab38ec32295",
+  "authors": [
+    {
+      "n": "Daniel McCloy",
+      "e": "1810515+drammock@users.noreply.github.com",
+      "l": "drammock"
+    }
+  ],
+  "changes": {
+    "tutorials/preprocessing/40_artifact_correction_ica.py": {
+      "a": 12,
+      "d": 17
+    }
+  }
+}

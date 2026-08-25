@@ -1,0 +1,16 @@
+{
+  "merge_commit_sha": "6476eac6bab76ce448073d9569648cf86db357f0",
+  "authors": [
+    {
+      "n": "Sagun Pai",
+      "e": "4569628+Famguy@users.noreply.github.com",
+      "l": "Famguy"
+    }
+  ],
+  "changes": {
+    "LICENSE.txt": {
+      "a": 2,
+      "d": 2
+    }
+  }
+}
