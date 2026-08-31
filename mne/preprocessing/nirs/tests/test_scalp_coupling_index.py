@@ -4,10 +4,10 @@
 
 import numpy as np
 import pytest
-from numpy.testing import assert_allclose, assert_array_less
-
 from mne.datasets import testing
 from mne.datasets.testing import data_path
+from numpy.testing import assert_allclose, assert_array_less
+
 from mne.io import read_raw_nirx, read_raw_snirf
 from mne.preprocessing.nirs import (
     beer_lambert_law,

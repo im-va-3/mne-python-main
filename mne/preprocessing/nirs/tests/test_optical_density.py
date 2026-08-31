@@ -4,10 +4,10 @@
 
 import numpy as np
 import pytest as pytest
-from numpy.testing import assert_allclose
-
 from mne.datasets import testing
 from mne.datasets.testing import data_path
+from numpy.testing import assert_allclose
+
 from mne.io import BaseRaw, read_raw_nirx, read_raw_snirf
 from mne.preprocessing.nirs import optical_density
 from mne.utils import _validate_type

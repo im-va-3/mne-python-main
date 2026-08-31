@@ -26,10 +26,10 @@ import warnings
 
 import matplotlib.pyplot as plt
 import numpy as np
+from mne.datasets.brainstorm import bst_phantom_ctf
 
 import mne
 from mne import fit_dipole
-from mne.datasets.brainstorm import bst_phantom_ctf
 from mne.io import read_raw_ctf
 
 print(__doc__)

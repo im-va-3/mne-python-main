@@ -24,9 +24,9 @@ explanation that demonstrates more advanced approaches.
 # data, in this case the :ref:`MNE sample dataset <sample-dataset>`.
 
 from matplotlib import pyplot as plt
+from mne.datasets import sample
 
 import mne
-from mne.datasets import sample
 from mne.preprocessing import EOGRegression
 
 print(__doc__)

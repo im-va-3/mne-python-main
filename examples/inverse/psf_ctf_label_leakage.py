@@ -23,10 +23,10 @@ which is ordered based on the locations of the regions in the axial plane.
 
 import matplotlib.pyplot as plt
 import numpy as np
+from mne.datasets import sample
 from mne_connectivity.viz import plot_connectivity_circle
 
 import mne
-from mne.datasets import sample
 from mne.minimum_norm import (
     get_point_spread,
     make_inverse_resolution_matrix,

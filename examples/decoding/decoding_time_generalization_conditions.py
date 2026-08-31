@@ -20,12 +20,12 @@ model can accurately predict all of the time samples of a second set of conditio
 # %%
 
 import matplotlib.pyplot as plt
+from mne.datasets import sample
 from sklearn.linear_model import LogisticRegression
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
 
 import mne
-from mne.datasets import sample
 from mne.decoding import GeneralizingEstimator
 
 # Preprocess data

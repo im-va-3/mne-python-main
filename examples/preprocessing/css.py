@@ -21,9 +21,9 @@ density of the raw and processed data.
 
 import matplotlib.pyplot as plt
 import numpy as np
+from mne.datasets import sample
 
 import mne
-from mne.datasets import sample
 from mne.simulation import simulate_evoked, simulate_sparse_stc
 
 ###############################################################################

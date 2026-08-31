@@ -29,9 +29,9 @@ For the general methodology, see e.g. :footcite:`HaukEtAl2006`.
 # %%
 
 import pandas as pd
+from mne.datasets import kiloword
 
 import mne
-from mne.datasets import kiloword
 from mne.stats import fdr_correction, linear_regression
 from mne.viz import plot_compare_evokeds
 

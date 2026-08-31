@@ -26,9 +26,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib.cm import ScalarMappable
 from matplotlib.colors import Normalize
+from mne.datasets import sample
 
 import mne
-from mne.datasets import sample
 
 print(__doc__)
 

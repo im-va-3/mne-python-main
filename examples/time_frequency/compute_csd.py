@@ -21,8 +21,9 @@ the CSD:
 # Copyright the MNE-Python contributors.
 
 # %%
-import mne
 from mne.datasets import sample
+
+import mne
 from mne.time_frequency import csd_fourier, csd_morlet, csd_multitaper
 
 print(__doc__)

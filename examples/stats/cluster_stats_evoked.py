@@ -18,10 +18,10 @@ with cluster level permutation test.
 # %%
 
 import matplotlib.pyplot as plt
+from mne.datasets import sample
 
 import mne
 from mne import io
-from mne.datasets import sample
 from mne.stats import permutation_cluster_test
 
 print(__doc__)

@@ -18,11 +18,11 @@ permutation test across space and time.
 # %%
 
 import numpy as np
+from mne.datasets import sample
 from scipy import stats as stats
 
 import mne
 from mne import spatial_src_adjacency
-from mne.datasets import sample
 from mne.stats import spatio_temporal_cluster_test, summarize_clusters_stc
 
 print(__doc__)

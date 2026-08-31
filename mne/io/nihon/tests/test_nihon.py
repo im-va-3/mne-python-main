@@ -3,9 +3,9 @@
 # Copyright the MNE-Python contributors.
 
 import pytest
+from mne.datasets import testing
 from numpy.testing import assert_allclose
 
-from mne.datasets import testing
 from mne.io import read_raw_edf, read_raw_nihon
 from mne.io.nihon import nihon
 from mne.io.nihon.nihon import (

@@ -20,8 +20,9 @@ source imaging, especially for deeper sources.
 
 # %%
 
-import mne
 from mne.datasets import sample
+
+import mne
 from mne.minimum_norm.resolution_matrix import make_inverse_resolution_matrix
 from mne.minimum_norm.spatial_resolution import resolution_metrics
 

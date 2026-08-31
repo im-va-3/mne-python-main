@@ -17,8 +17,9 @@ modeling, see :ref:`ch_forward`.
 
 # %%
 
-import mne
 from mne.datasets import sample
+
+import mne
 
 data_path = sample.data_path()
 

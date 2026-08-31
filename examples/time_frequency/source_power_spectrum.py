@@ -16,10 +16,10 @@ within a label.
 # %%
 
 import matplotlib.pyplot as plt
+from mne.datasets import sample
 
 import mne
 from mne import io
-from mne.datasets import sample
 from mne.minimum_norm import compute_source_psd, read_inverse_operator
 
 print(__doc__)

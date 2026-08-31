@@ -30,10 +30,10 @@ to 275-sensor CTF system.
 # Copyright the MNE-Python contributors.
 
 import matplotlib.pyplot as plt
+from mne.datasets import sample
 
 import mne
 from mne.channels import make_standard_montage
-from mne.datasets import sample
 
 print(__doc__)
 ylim = (-10, 10)

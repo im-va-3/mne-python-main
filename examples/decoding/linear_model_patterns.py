@@ -24,13 +24,13 @@ because the noise is less spatially correlated in MEG than EEG.
 
 # %%
 
+from mne.datasets import sample
 from sklearn.linear_model import LogisticRegression
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
 
 import mne
 from mne import io
-from mne.datasets import sample
 
 # import a linear classifier from mne.decoding
 from mne.decoding import (

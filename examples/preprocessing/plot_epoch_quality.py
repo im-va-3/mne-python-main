@@ -19,10 +19,10 @@ inform rejection decisions.
 # %%
 import matplotlib.pyplot as plt
 import numpy as np
+from mne.datasets import eegbci
 from scipy.stats import kurtosis
 
 import mne
-from mne.datasets import eegbci
 
 print(__doc__)
 

@@ -16,9 +16,10 @@ Compute a Truncated Recursively Applied and Projected MUltiple Signal Classifica
 
 # %%
 
+from mne.datasets import sample
+
 import mne
 from mne.beamformer import trap_music
-from mne.datasets import sample
 from mne.viz import plot_dipole_amplitudes, plot_dipole_locations
 
 print(__doc__)

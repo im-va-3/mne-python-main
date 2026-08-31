@@ -20,10 +20,10 @@ visualized on the average of all the epochs.
 
 import matplotlib.pyplot as plt
 import numpy as np
+from mne.datasets import sample
 from sklearn.decomposition import PCA, FastICA
 
 import mne
-from mne.datasets import sample
 from mne.decoding import UnsupervisedSpatialFilter
 
 print(__doc__)

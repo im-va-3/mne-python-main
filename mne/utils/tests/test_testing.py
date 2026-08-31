@@ -7,8 +7,8 @@ from pathlib import Path
 
 import numpy as np
 import pytest
-
 from mne.datasets import testing
+
 from mne.utils import _TempDir, _url_to_local_path, buggy_mkl_svd
 
 

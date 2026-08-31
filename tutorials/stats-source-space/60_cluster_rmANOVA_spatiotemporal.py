@@ -26,9 +26,9 @@ across space and time.
 
 import matplotlib.pyplot as plt
 import numpy as np
+from mne.datasets import sample
 
 import mne
-from mne.datasets import sample
 from mne.minimum_norm import apply_inverse, read_inverse_operator
 from mne.stats import (
     f_mway_rm,

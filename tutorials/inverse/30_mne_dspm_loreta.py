@@ -17,9 +17,9 @@ minimum-norm inverse method on evoked/raw/epochs data.
 
 import matplotlib.pyplot as plt
 import numpy as np
+from mne.datasets import sample
 
 import mne
-from mne.datasets import sample
 from mne.minimum_norm import apply_inverse, make_inverse_operator
 
 # %%

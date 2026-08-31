@@ -18,8 +18,9 @@ used when computing the minimum-norm inverse solution. For more information, see
 
 # %%
 
-import mne
 from mne.datasets import sample
+
+import mne
 
 # %%
 # Source estimation methods such as MNE require noise estimates from the

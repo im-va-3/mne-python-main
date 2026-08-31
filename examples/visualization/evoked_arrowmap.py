@@ -25,11 +25,11 @@ References
 # %%
 
 import numpy as np
+from mne.datasets import sample
+from mne.datasets.brainstorm import bst_raw
 
 import mne
 from mne import read_evokeds
-from mne.datasets import sample
-from mne.datasets.brainstorm import bst_raw
 from mne.viz import plot_arrowmap
 
 print(__doc__)

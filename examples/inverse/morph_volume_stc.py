@@ -26,10 +26,10 @@ the morphed volumetric source estimate.
 
 # %%
 import nibabel as nib
+from mne.datasets import fetch_fsaverage, sample
 from nilearn.plotting import plot_glass_brain
 
 import mne
-from mne.datasets import fetch_fsaverage, sample
 from mne.minimum_norm import apply_inverse, read_inverse_operator
 
 print(__doc__)

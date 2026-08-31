@@ -14,8 +14,9 @@ The inverse operator's source space is shown in 3D.
 
 # %%
 
-import mne
 from mne.datasets import sample
+
+import mne
 from mne.minimum_norm import read_inverse_operator
 from mne.viz import set_3d_view
 

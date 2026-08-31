@@ -21,9 +21,9 @@ related synchronizations (ERS) / desynchronizations (ERD) in the beta band.
 # %%
 import matplotlib.pyplot as plt
 import numpy as np
+from mne.datasets import somato
 
 import mne
-from mne.datasets import somato
 
 # %%
 # Set parameters

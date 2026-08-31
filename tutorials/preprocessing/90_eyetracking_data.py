@@ -27,8 +27,9 @@ the ERP and pupil response to the light flashes (i.e. the pupillary light reflex
 # only blinks annotations are created (by default, annotations are created for blinks,
 # saccades, fixations, and experiment messages).
 
-import mne
 from mne.datasets.eyelink import data_path
+
+import mne
 from mne.preprocessing.eyetracking import read_eyelink_calibration
 from mne.viz.eyetracking import plot_gaze
 

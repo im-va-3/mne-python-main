@@ -16,9 +16,10 @@ functions.
 
 # %%
 
+from mne.datasets import sample
+
 import mne
 from mne.beamformer import make_lcmv, make_lcmv_resolution_matrix
-from mne.datasets import sample
 from mne.minimum_norm import get_cross_talk
 
 print(__doc__)

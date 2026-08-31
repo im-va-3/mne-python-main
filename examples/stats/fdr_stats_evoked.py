@@ -19,11 +19,11 @@ False Discovery Rate (FDR) correction.
 
 import matplotlib.pyplot as plt
 import numpy as np
+from mne.datasets import sample
 from scipy import stats
 
 import mne
 from mne import io
-from mne.datasets import sample
 from mne.stats import bonferroni_correction, fdr_correction
 
 print(__doc__)

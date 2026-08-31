@@ -16,8 +16,9 @@ MNE, dSPM, sLORETA, and eLORETA.
 
 # %%
 
-import mne
 from mne.datasets import sample
+
+import mne
 from mne.minimum_norm import apply_inverse, apply_inverse_cov, make_inverse_operator
 
 print(__doc__)

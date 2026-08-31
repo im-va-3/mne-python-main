@@ -10,12 +10,12 @@ from pathlib import Path
 
 import numpy as np
 import pytest
+from mne.datasets import testing
 from numpy.testing import assert_allclose, assert_equal
 
 import mne
 from mne import create_info, pick_channels_cov, read_vectorview_selection
 from mne._fiff.pick import _picks_to_idx
-from mne.datasets import testing
 from mne.utils import (
     Bunch,
     _check_ch_locs,

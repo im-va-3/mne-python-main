@@ -17,9 +17,9 @@ signal with point-spread by applying a forward and inverse solution.
 # %%
 
 import numpy as np
+from mne.datasets import sample
 
 import mne
-from mne.datasets import sample
 from mne.minimum_norm import apply_inverse, read_inverse_operator
 from mne.simulation import simulate_evoked, simulate_stc
 

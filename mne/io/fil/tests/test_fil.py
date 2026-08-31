@@ -6,11 +6,11 @@ from os import remove
 
 import pytest
 import scipy.io
+from mne.datasets import testing
 from numpy import array, empty, isnan
 from numpy.testing import assert_array_almost_equal, assert_array_equal
 
 from mne import pick_types
-from mne.datasets import testing
 from mne.io import read_raw_fil
 from mne.io.fil.sensors import _get_pos_units
 from mne.utils import copytree_rw

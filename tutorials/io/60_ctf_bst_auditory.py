@@ -28,10 +28,10 @@ Experiment:
 
 import numpy as np
 import pandas as pd
+from mne.datasets.brainstorm import bst_auditory
 
 import mne
 from mne import combine_evoked
-from mne.datasets.brainstorm import bst_auditory
 from mne.io import read_raw_ctf
 from mne.minimum_norm import apply_inverse
 

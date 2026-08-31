@@ -22,9 +22,9 @@ using dynamic statistical parametric mapping (dSPM) inverse operator.
 # %%
 
 import numpy as np
+from mne.datasets import sample
 
 import mne
-from mne.datasets import sample
 
 # %%
 # In this example, raw data will be simulated for the sample subject, so its

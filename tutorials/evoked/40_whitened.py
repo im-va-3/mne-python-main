@@ -21,8 +21,9 @@ that we'll consider to be noise.
 
 # %%
 
-import mne
 from mne.datasets import sample
+
+import mne
 
 # %%
 # Raw data with whitening

@@ -14,8 +14,9 @@ How to plot a noise covariance matrix.
 
 # %%
 
-import mne
 from mne.datasets import sample
+
+import mne
 
 data_path = sample.data_path()
 fname_cov = data_path / "MEG" / "sample" / "sample_audvis-cov.fif"

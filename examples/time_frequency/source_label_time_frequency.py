@@ -22,10 +22,10 @@ latter also includes evoked (stimulus-locked) activity.
 
 import matplotlib.pyplot as plt
 import numpy as np
+from mne.datasets import sample
 
 import mne
 from mne import io
-from mne.datasets import sample
 from mne.minimum_norm import read_inverse_operator, source_induced_power
 
 print(__doc__)

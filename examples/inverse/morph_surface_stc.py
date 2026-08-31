@@ -29,8 +29,9 @@ source estimate.
 # Copyright the MNE-Python contributors.
 
 # %%
-import mne
 from mne.datasets import sample
+
+import mne
 
 print(__doc__)
 

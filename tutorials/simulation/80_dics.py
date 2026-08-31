@@ -25,11 +25,11 @@ simulated sources.
 # of filenames for various things we'll be using.
 import numpy as np
 from matplotlib import pyplot as plt
+from mne.datasets import sample
 from scipy.signal import coherence, unit_impulse, welch
 
 import mne
 from mne.beamformer import apply_dics_csd, make_dics
-from mne.datasets import sample
 from mne.minimum_norm import apply_inverse, make_inverse_operator
 from mne.simulation import add_noise, simulate_raw
 from mne.time_frequency import csd_morlet

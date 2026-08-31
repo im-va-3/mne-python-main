@@ -25,10 +25,11 @@ References
 
 # %%
 
+from mne.datasets import sample
+
 import mne
 from mne import io
 from mne.cov import compute_covariance
-from mne.datasets import sample
 
 print(__doc__)
 

@@ -28,9 +28,9 @@ The procedure consists of:
 
 import matplotlib.pyplot as plt
 import numpy as np
+from mne.datasets import sample
 
 import mne
-from mne.datasets import sample
 from mne.stats import permutation_cluster_test
 
 print(__doc__)

@@ -33,8 +33,8 @@ surrounding "BAD" annotation.
 
 import matplotlib.pyplot as plt
 import numpy as np
-
 from mne.datasets.brainstorm import bst_auditory
+
 from mne.io import read_raw_ctf
 from mne.preprocessing import annotate_muscle_zscore
 

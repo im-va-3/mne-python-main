@@ -18,10 +18,10 @@ is performed on MNE sample dataset between 40 and 60 ms.
 # %%
 
 import numpy as np
+from mne.datasets import sample
 
 import mne
 from mne import io
-from mne.datasets import sample
 from mne.stats import permutation_t_test
 
 print(__doc__)

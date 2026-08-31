@@ -23,9 +23,9 @@ or more distinct topography, reducing the negative impact of volume conduction.
 
 import matplotlib.pyplot as plt
 import numpy as np
+from mne.datasets import sample
 
 import mne
-from mne.datasets import sample
 
 print(__doc__)
 

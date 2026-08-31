@@ -21,9 +21,9 @@ also using a sign flip.
 
 import matplotlib.patheffects as path_effects
 import matplotlib.pyplot as plt
+from mne.datasets import sample
 
 import mne
-from mne.datasets import sample
 from mne.minimum_norm import apply_inverse, read_inverse_operator
 
 print(__doc__)

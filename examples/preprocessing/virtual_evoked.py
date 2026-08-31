@@ -21,8 +21,9 @@ This is useful to:
 
 # %%
 
-import mne
 from mne.datasets import sample
+
+import mne
 
 print(__doc__)
 

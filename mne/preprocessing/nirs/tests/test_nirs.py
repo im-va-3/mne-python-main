@@ -4,13 +4,13 @@
 
 import numpy as np
 import pytest
+from mne.datasets import testing
+from mne.datasets.testing import data_path
 from numpy.testing import assert_allclose, assert_array_almost_equal, assert_array_equal
 
 from mne import create_info
 from mne._fiff.constants import FIFF
 from mne._fiff.pick import _picks_to_idx
-from mne.datasets import testing
-from mne.datasets.testing import data_path
 from mne.io import RawArray, read_raw_nirx, read_raw_snirf
 from mne.preprocessing.nirs import (
     _channel_chromophore,

@@ -32,6 +32,7 @@ images of faces and body parts.
 
 import matplotlib.pyplot as plt
 import numpy as np
+from mne.datasets import visual_92_categories
 from pandas import read_csv
 from sklearn.linear_model import LogisticRegression
 from sklearn.manifold import MDS
@@ -42,7 +43,6 @@ from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
 
 import mne
-from mne.datasets import visual_92_categories
 from mne.io import concatenate_raws, read_raw_fif
 
 print(__doc__)

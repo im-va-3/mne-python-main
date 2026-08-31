@@ -25,9 +25,9 @@ First we show how ``fsaverage`` can be used as a surrogate subject.
 # Copyright the MNE-Python contributors.
 
 import numpy as np
+from mne.datasets import eegbci, fetch_fsaverage
 
 import mne
-from mne.datasets import eegbci, fetch_fsaverage
 
 # Download fsaverage files
 fs_dir = fetch_fsaverage(verbose=True)

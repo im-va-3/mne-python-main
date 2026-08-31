@@ -36,9 +36,9 @@ see also: :ref:`tut-cluster-spatiotemporal-sensor`.
 import matplotlib.pyplot as plt
 import numpy as np
 import scipy.stats
+from mne.datasets import sample
 
 import mne
-from mne.datasets import sample
 from mne.stats import permutation_cluster_1samp_test
 
 # %%

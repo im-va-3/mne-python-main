@@ -22,10 +22,10 @@ synchronization (ERS) of beta band activity in the
 # %%
 
 import numpy as np
+from mne.datasets import somato
 
 import mne
 from mne.beamformer import apply_dics_csd, make_dics
-from mne.datasets import somato
 from mne.time_frequency import csd_morlet
 
 print(__doc__)

@@ -20,6 +20,7 @@ fed into a logistic regression.
 
 import matplotlib.pyplot as plt
 import numpy as np
+from mne.datasets import sample
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import classification_report, confusion_matrix
 from sklearn.model_selection import StratifiedKFold
@@ -28,7 +29,6 @@ from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import MinMaxScaler
 
 from mne import Epochs, io, pick_types, read_events
-from mne.datasets import sample
 from mne.decoding import Vectorizer, XdawnTransformer, get_spatial_filter_from_estimator
 from mne.utils import check_version
 

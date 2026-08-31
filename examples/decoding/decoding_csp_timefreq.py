@@ -23,13 +23,13 @@ signals.
 
 import matplotlib.pyplot as plt
 import numpy as np
+from mne.datasets import eegbci
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 from sklearn.model_selection import StratifiedKFold, cross_val_score
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import LabelEncoder
 
 from mne import Epochs, create_info
-from mne.datasets import eegbci
 from mne.decoding import CSP
 from mne.io import concatenate_raws, read_raw_edf
 from mne.time_frequency import AverageTFRArray

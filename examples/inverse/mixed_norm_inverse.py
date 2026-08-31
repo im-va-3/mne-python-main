@@ -21,9 +21,9 @@ amplitude bias due to the non-convexity of the L0.5/L2 mixed norm penalty.
 # sphinx_gallery_thumbnail_number = 2
 
 import numpy as np
+from mne.datasets import sample
 
 import mne
-from mne.datasets import sample
 from mne.inverse_sparse import make_stc_from_dipoles, mixed_norm
 from mne.minimum_norm import apply_inverse, make_inverse_operator
 from mne.viz import (

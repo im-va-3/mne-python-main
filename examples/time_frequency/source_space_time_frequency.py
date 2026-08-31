@@ -18,10 +18,10 @@ is linear based on dSPM inverse operator.
 # %%
 
 import matplotlib.pyplot as plt
+from mne.datasets import sample
 
 import mne
 from mne import io
-from mne.datasets import sample
 from mne.minimum_norm import read_inverse_operator, source_band_induced_power
 
 print(__doc__)

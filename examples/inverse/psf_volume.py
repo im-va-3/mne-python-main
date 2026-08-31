@@ -17,9 +17,9 @@ Visualise PSF at one volume vertex for sLORETA.
 # %%
 
 import numpy as np
+from mne.datasets import sample
 
 import mne
-from mne.datasets import sample
 from mne.minimum_norm import get_point_spread, make_inverse_resolution_matrix
 
 print(__doc__)

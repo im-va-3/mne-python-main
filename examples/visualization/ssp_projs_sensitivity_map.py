@@ -16,9 +16,9 @@ similar to the first SSP vector correcting for ECG.
 # %%
 
 import matplotlib.pyplot as plt
+from mne.datasets import sample
 
 from mne import read_forward_solution, read_proj, sensitivity_map
-from mne.datasets import sample
 
 print(__doc__)
 

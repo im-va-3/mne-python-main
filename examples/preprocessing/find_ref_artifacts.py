@@ -33,10 +33,10 @@ This technique is fully described and validated in :footcite:`HannaEtAl2020`
 # %%
 
 import numpy as np
+from mne.datasets import refmeg_noise
 
 import mne
 from mne import io
-from mne.datasets import refmeg_noise
 from mne.preprocessing import ICA
 
 print(__doc__)

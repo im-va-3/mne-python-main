@@ -10,6 +10,7 @@ from pathlib import Path
 
 import numpy as np
 import pytest
+from mne.datasets import misc, testing
 from numpy.testing import assert_allclose, assert_array_almost_equal, assert_array_equal
 
 from mne import (
@@ -20,7 +21,6 @@ from mne import (
     read_evokeds,
     read_evokeds_mff,
 )
-from mne.datasets import misc, testing
 from mne.export import export_evokeds, export_evokeds_mff
 from mne.fixes import _compare_version
 from mne.io import (

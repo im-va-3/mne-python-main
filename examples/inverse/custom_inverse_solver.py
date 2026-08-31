@@ -26,10 +26,10 @@ in order to try out another inverse algorithm.
 # %%
 
 import numpy as np
+from mne.datasets import sample
 from scipy import linalg
 
 import mne
-from mne.datasets import sample
 from mne.viz import plot_sparse_source_estimates
 
 data_path = sample.data_path()

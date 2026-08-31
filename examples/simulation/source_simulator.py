@@ -19,9 +19,9 @@ introduction and only highlights the simplest use case.
 # %%
 
 import numpy as np
+from mne.datasets import sample
 
 import mne
-from mne.datasets import sample
 
 print(__doc__)
 

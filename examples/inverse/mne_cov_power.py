@@ -25,9 +25,9 @@ References
 # %%
 
 import numpy as np
+from mne.datasets import sample
 
 import mne
-from mne.datasets import sample
 from mne.minimum_norm import apply_inverse_cov, make_inverse_operator
 
 data_path = sample.data_path()

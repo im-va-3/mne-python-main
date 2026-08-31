@@ -14,6 +14,7 @@ from pathlib import Path
 import numpy as np
 import pytest
 from matplotlib import pyplot as plt
+from mne.datasets import testing
 
 from mne import (
     Epochs,
@@ -24,7 +25,6 @@ from mne import (
     read_evokeds,
 )
 from mne._fiff.write import DATE_NONE
-from mne.datasets import testing
 from mne.epochs import make_metadata
 from mne.fixes import _reshape_view
 from mne.io import RawArray, read_info, read_raw_fif

@@ -58,8 +58,9 @@ is. We first set up the environment and load some data:
 
 # %%
 
-from mne import read_source_estimate
 from mne.datasets import sample
+
+from mne import read_source_estimate
 
 print(__doc__)
 

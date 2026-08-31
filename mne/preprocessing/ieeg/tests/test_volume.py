@@ -6,10 +6,10 @@
 
 import numpy as np
 import pytest
+from mne.datasets import testing
 
 from mne.channels import make_dig_montage
 from mne.coreg import get_mni_fiducials
-from mne.datasets import testing
 from mne.preprocessing.ieeg import make_montage_volume, warp_montage
 from mne.transforms import apply_trans, compute_volume_registration
 

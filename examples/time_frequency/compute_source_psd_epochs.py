@@ -17,9 +17,9 @@ Discrete Prolate Spheroidal Sequence (DPSS) windows.
 # %%
 
 import matplotlib.pyplot as plt
+from mne.datasets import sample
 
 import mne
-from mne.datasets import sample
 from mne.minimum_norm import compute_source_psd_epochs, read_inverse_operator
 
 print(__doc__)

@@ -28,6 +28,7 @@ sufficient.
 # Copyright the MNE-Python contributors.
 
 from mne.datasets import eegbci
+
 from mne.io import read_raw_edf
 from mne.viz import set_browser_backend
 from mne.viz._mpl_figure import MNEBrowseFigure as MNEBrowseFigureOrig

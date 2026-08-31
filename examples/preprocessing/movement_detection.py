@@ -23,8 +23,9 @@ be more representative of the actual head position during the recording.
 
 # %%
 
-import mne
 from mne.datasets.brainstorm import bst_auditory
+
+import mne
 from mne.io import read_raw_ctf
 from mne.preprocessing import annotate_movement, compute_average_dev_head_t
 

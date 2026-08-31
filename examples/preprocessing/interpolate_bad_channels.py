@@ -23,8 +23,9 @@ Only the data in those channels is replaced.
 
 # sphinx_gallery_thumbnail_number = 2
 
-import mne
 from mne.datasets import sample
+
+import mne
 
 print(__doc__)
 

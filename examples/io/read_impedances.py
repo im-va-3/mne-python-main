@@ -30,8 +30,8 @@ from antio import read_cnt
 from antio.parser import read_triggers
 from matplotlib import pyplot as plt
 from mffpy.xml_files import DataInfo
-
 from mne.datasets import testing
+
 from mne.io import read_raw_ant, read_raw_egi
 from mne.viz import plot_topomap
 

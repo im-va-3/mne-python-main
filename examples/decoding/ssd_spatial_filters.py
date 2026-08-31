@@ -22,10 +22,10 @@ frequencies.
 # %%
 
 import matplotlib.pyplot as plt
+from mne.datasets.fieldtrip_cmc import data_path
 
 import mne
 from mne import Epochs
-from mne.datasets.fieldtrip_cmc import data_path
 from mne.decoding import SSD, get_spatial_filter_from_estimator
 
 # %%

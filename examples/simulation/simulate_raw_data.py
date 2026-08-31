@@ -19,10 +19,10 @@ multiple times.
 
 import matplotlib.pyplot as plt
 import numpy as np
+from mne.datasets import sample
 
 import mne
 from mne import Epochs, compute_covariance, find_events, make_ad_hoc_cov
-from mne.datasets import sample
 from mne.simulation import (
     add_ecg,
     add_eog,

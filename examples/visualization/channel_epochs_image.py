@@ -23,10 +23,10 @@ embedding as described in :footcite:`GramfortEtAl2010`.
 
 import matplotlib.pyplot as plt
 import numpy as np
+from mne.datasets import sample
 
 import mne
 from mne import io
-from mne.datasets import sample
 
 print(__doc__)
 

@@ -6,7 +6,6 @@
 # executed in a separate IPython kernel.
 
 import pytest
-
 from mne.datasets import testing
 
 
@@ -50,10 +49,10 @@ def test_notebook_interactive(renderer_notebook, brain_gc, nbexec):
     import matplotlib.pyplot as plt
     import pytest
     from ipywidgets import Button
+    from mne.datasets import testing
     from numpy.testing import assert_allclose
 
     import mne
-    from mne.datasets import testing
 
     with pytest.MonkeyPatch().context() as mp:
         mp.delenv("_MNE_FAKE_HOME_DIR")

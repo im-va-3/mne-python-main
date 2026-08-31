@@ -46,10 +46,10 @@ References
 # %%
 import matplotlib.pyplot as plt
 import numpy as np
+from mne.datasets import somato
 
 import mne
 from mne.baseline import rescale
-from mne.datasets import somato
 from mne.stats import bootstrap_confidence_interval
 
 # %%

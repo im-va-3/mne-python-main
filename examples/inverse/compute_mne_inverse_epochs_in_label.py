@@ -17,9 +17,9 @@ to a brain label.
 
 import matplotlib.pyplot as plt
 import numpy as np
+from mne.datasets import sample
 
 import mne
-from mne.datasets import sample
 from mne.minimum_norm import apply_inverse, apply_inverse_epochs, read_inverse_operator
 
 print(__doc__)

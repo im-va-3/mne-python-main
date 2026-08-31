@@ -3,10 +3,10 @@
 # Copyright the MNE-Python contributors.
 
 import pytest
+from mne.datasets import testing
 from numpy.testing import assert_allclose
 
 import mne
-from mne.datasets import testing
 
 testing_path = testing.data_path(download=False)
 ms_fname = testing_path / "SSS" / "test_move_anon_raw.fif"

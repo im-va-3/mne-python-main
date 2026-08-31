@@ -15,8 +15,9 @@ using a minimum-norm inverse operator.
 
 # %%
 
-from mne import read_evokeds
 from mne.datasets.sample import data_path
+
+from mne import read_evokeds
 from mne.minimum_norm import read_inverse_operator
 from mne.viz import plot_snr_estimate
 

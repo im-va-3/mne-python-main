@@ -16,8 +16,9 @@ Show sensor layouts of different MEG systems.
 
 from pathlib import Path
 
-import mne
 from mne.datasets import sample, spm_face, testing
+
+import mne
 from mne.io import (
     read_raw_artemis123,
     read_raw_bti,

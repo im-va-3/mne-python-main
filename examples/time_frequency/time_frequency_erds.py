@@ -40,9 +40,9 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 from matplotlib.colors import TwoSlopeNorm
+from mne.datasets import eegbci
 
 import mne
-from mne.datasets import eegbci
 from mne.io import concatenate_raws, read_raw_edf
 from mne.stats import permutation_cluster_1samp_test as pcluster_test
 

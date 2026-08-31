@@ -14,9 +14,9 @@ Shifting time-scale in evoked data
 # %%
 
 import matplotlib.pyplot as plt
+from mne.datasets import sample
 
 import mne
-from mne.datasets import sample
 
 print(__doc__)
 

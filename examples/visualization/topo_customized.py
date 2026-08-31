@@ -21,10 +21,10 @@ layout.
 
 import matplotlib.pyplot as plt
 import numpy as np
+from mne.datasets import sample
 
 import mne
 from mne import io
-from mne.datasets import sample
 from mne.viz import iter_topography
 
 print(__doc__)

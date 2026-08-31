@@ -15,10 +15,10 @@ source activity using an LCMV beamformer.
 # Copyright the MNE-Python contributors.
 
 import matplotlib.pyplot as plt
+from mne.datasets import fetch_fsaverage, sample
 
 import mne
 from mne.beamformer import apply_lcmv, make_lcmv
-from mne.datasets import fetch_fsaverage, sample
 
 # %%
 # Introduction to beamformers

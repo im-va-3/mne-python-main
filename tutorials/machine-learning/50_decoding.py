@@ -31,12 +31,12 @@ Let's start by loading data for a simple two-class problem:
 
 import matplotlib.pyplot as plt
 import numpy as np
+from mne.datasets import sample
 from sklearn.linear_model import LogisticRegression
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
 
 import mne
-from mne.datasets import sample
 from mne.decoding import (
     CSP,
     GeneralizingEstimator,

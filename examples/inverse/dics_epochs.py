@@ -17,10 +17,10 @@ We will look at the event-related synchronization (ERS) of beta band activity in
 # Copyright the MNE-Python contributors.
 
 import numpy as np
+from mne.datasets import somato
 
 import mne
 from mne.beamformer import apply_dics_tfr_epochs, make_dics
-from mne.datasets import somato
 from mne.time_frequency import csd_tfr
 
 print(__doc__)

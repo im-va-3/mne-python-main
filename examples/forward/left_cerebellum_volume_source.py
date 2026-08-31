@@ -17,9 +17,10 @@ segmentation file.
 
 # %%
 
+from mne.datasets import sample
+
 import mne
 from mne import setup_source_space, setup_volume_source_space
-from mne.datasets import sample
 
 print(__doc__)
 

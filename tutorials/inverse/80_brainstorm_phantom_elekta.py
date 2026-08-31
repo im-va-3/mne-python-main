@@ -30,12 +30,12 @@ For comparison, see :footcite:`TadelEtAl2011` and
 # %%
 import matplotlib.pyplot as plt
 import numpy as np
+from mne.datasets import fetch_phantom
+from mne.datasets.brainstorm import bst_phantom_elekta
 from scipy.signal import find_peaks
 
 import mne
 from mne import find_events, fit_dipole
-from mne.datasets import fetch_phantom
-from mne.datasets.brainstorm import bst_phantom_elekta
 from mne.io import read_raw_fif
 
 # %%

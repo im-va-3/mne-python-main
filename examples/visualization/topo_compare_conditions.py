@@ -20,9 +20,9 @@ the related evoked responses.
 # %%
 
 import matplotlib.pyplot as plt
+from mne.datasets import sample
 
 import mne
-from mne.datasets import sample
 from mne.viz import plot_evoked_topo
 
 print(__doc__)

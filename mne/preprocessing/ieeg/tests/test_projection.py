@@ -9,10 +9,10 @@ from shutil import copyfile
 
 import numpy as np
 import pytest
+from mne.datasets import testing
 from numpy.testing import assert_allclose
 
 import mne
-from mne.datasets import testing
 from mne.preprocessing.ieeg import project_sensors_onto_brain
 from mne.preprocessing.ieeg._projection import _project_sensors_onto_inflated
 from mne.transforms import _get_trans

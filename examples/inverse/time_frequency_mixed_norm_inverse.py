@@ -28,9 +28,9 @@ The benefit of this approach is that:
 # %%
 
 import numpy as np
+from mne.datasets import sample
 
 import mne
-from mne.datasets import sample
 from mne.inverse_sparse import make_stc_from_dipoles, tf_mixed_norm
 from mne.minimum_norm import apply_inverse, make_inverse_operator
 from mne.viz import (

@@ -33,10 +33,10 @@ being reproducible.
 # dataset.
 import matplotlib.pyplot as plt
 import numpy as np
+from mne.datasets import sample
 
 import mne
 from mne.channels import read_vectorview_selection
-from mne.datasets import sample
 from mne.minimum_norm import apply_inverse, apply_inverse_epochs, make_inverse_operator
 
 data_path = sample.data_path()

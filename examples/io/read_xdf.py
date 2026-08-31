@@ -19,9 +19,9 @@ recording is of a short parallel auditory response (pABR) experiment
 # %%
 
 import pyxdf
+from mne.datasets import misc
 
 import mne
-from mne.datasets import misc
 
 fname = misc.data_path() / "xdf" / "sub-P001_ses-S004_task-Default_run-001_eeg_a2.xdf"
 streams, header = pyxdf.load_xdf(fname)

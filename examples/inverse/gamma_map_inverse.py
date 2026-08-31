@@ -16,9 +16,9 @@ See :footcite:`WipfNagarajan2009` for details.
 # %%
 
 import numpy as np
+from mne.datasets import sample
 
 import mne
-from mne.datasets import sample
 from mne.inverse_sparse import gamma_map, make_stc_from_dipoles
 from mne.viz import (
     plot_dipole_amplitudes,

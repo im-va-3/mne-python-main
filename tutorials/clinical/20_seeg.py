@@ -39,9 +39,9 @@ see :ref:`manual-install`.
 # %%
 
 import numpy as np
+from mne.datasets import fetch_fsaverage
 
 import mne
-from mne.datasets import fetch_fsaverage
 
 # paths to mne datasets - sample sEEG and FreeSurfer's fsaverage subject
 # which is in MNI space

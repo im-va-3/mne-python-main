@@ -32,9 +32,9 @@ comparisons using False Discovery Rate correction.
 
 import matplotlib.pyplot as plt
 import numpy as np
+from mne.datasets import sample
 
 import mne
-from mne.datasets import sample
 from mne.stats import f_mway_rm, f_threshold_mway_rm, fdr_correction
 
 print(__doc__)

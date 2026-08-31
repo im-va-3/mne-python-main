@@ -21,9 +21,9 @@ This example shows how to compute and plot source space SNR as in
 
 import matplotlib.pyplot as plt
 import numpy as np
+from mne.datasets import sample
 
 import mne
-from mne.datasets import sample
 from mne.minimum_norm import apply_inverse, make_inverse_operator
 
 print(__doc__)

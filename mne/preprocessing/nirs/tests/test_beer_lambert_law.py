@@ -5,11 +5,11 @@
 
 import numpy as np
 import pytest
+from mne.datasets import testing
+from mne.datasets.testing import data_path
 from numpy.testing import assert_allclose
 
 from mne import create_info
-from mne.datasets import testing
-from mne.datasets.testing import data_path
 from mne.io import BaseRaw, RawArray, read_raw_fif, read_raw_nirx, read_raw_snirf
 from mne.preprocessing.nirs import (
     _channel_frequencies,

@@ -18,9 +18,9 @@ visualisation.
 # %%
 
 import matplotlib.pyplot as plt
+from mne.datasets import sample
 
 import mne
-from mne.datasets import sample
 from mne.minimum_norm import apply_inverse_raw, read_inverse_operator
 
 print(__doc__)

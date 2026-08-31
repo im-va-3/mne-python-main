@@ -28,11 +28,11 @@ evolution of the spatial filters.
 
 import matplotlib.pyplot as plt
 import numpy as np
+from mne.datasets import sample
 from sklearn.model_selection import StratifiedKFold
 
 import mne
 from mne import EvokedArray, io
-from mne.datasets import sample
 from mne.decoding import EMS, compute_ems
 
 print(__doc__)

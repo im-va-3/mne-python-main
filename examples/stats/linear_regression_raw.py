@@ -24,9 +24,9 @@ rERPs are described in :footcite:t:`SmithKutas2015`.
 # %%
 
 import matplotlib.pyplot as plt
+from mne.datasets import sample
 
 import mne
-from mne.datasets import sample
 from mne.stats.regression import linear_regression_raw
 
 # Load and preprocess data

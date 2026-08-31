@@ -23,10 +23,10 @@ and 'slowly-processed' face stimuli.
 # %%
 
 import matplotlib.pyplot as plt
+from mne.datasets import sample
 
 import mne
 from mne import io
-from mne.datasets import sample
 from mne.event import define_target_events
 
 print(__doc__)

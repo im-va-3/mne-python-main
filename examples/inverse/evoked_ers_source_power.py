@@ -19,11 +19,11 @@ baseline covariance matrices.
 # %%
 
 import numpy as np
+from mne.datasets import somato
 
 import mne
 from mne.beamformer import apply_dics_csd, apply_lcmv_cov, make_dics, make_lcmv
 from mne.cov import compute_covariance
-from mne.datasets import somato
 from mne.minimum_norm import apply_inverse_cov, make_inverse_operator
 from mne.time_frequency import csd_morlet
 

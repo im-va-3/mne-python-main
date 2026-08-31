@@ -15,8 +15,9 @@ Visualise PSF and CTF at one vertex for sLORETA.
 
 # %%
 
-import mne
 from mne.datasets import sample
+
+import mne
 from mne.minimum_norm import (
     get_cross_talk,
     get_point_spread,
