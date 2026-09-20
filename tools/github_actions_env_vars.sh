@@ -1,0 +1,73 @@
+#!/bin/bash
+set -eo pipefail
+
+# Only measure coverage where it is cheap or uniquely valuable. The matrix
+# Python is not installed yet at this step, so key off PYTHON_VERSION.
+COV_ARGS="--cov=mne --cov-report=xml"
+case "$MNE_CI_KIND" in
+    minimal | old) ;;
+    *)
+        case "$PYTHON_VERSION" in
+            3.11 | 3.12 | 3.13) COV_ARGS="" ;;
+        esac
+        ;;
+esac
+echo "COV_ARGS=$COV_ARGS" | tee -a "$GITHUB_ENV"
+
+if [[ -n "$COV_ARGS" ]]; then
+    case "$PYTHON_VERSION" in
+        3.11 | 3.12 | 3.13 | *t) ;;
+        *) echo "COVERAGE_CORE=sysmon" | tee -a "$GITHUB_ENV" ;;
+    esac
+fi
+
+echo "NUMBA_CACHE_DIR=$HOME/.cache/mne-numba" | tee -a "$GITHUB_ENV"
+echo "NUMBA_CPU_NAME=generic" | tee -a "$GITHUB_ENV"
+echo "NUMBA_CPU_FEATURES=" | tee -a "$GITHUB_ENV"
+
+if [[ "$CI_OS_NAME" == "macos"* ]]; then
+    echo "PYTEST_XDIST_N=2" | tee -a "$GITHUB_ENV"
+else
+    echo "PYTEST_XDIST_N=4" | tee -a "$GITHUB_ENV"
+fi
+
+echo "::group::Setting pip env vars for $MNE_CI_KIND"
+if [[ "$MNE_CI_KIND" == "pip"* ]]; then
+    if [[ "$MNE_CI_KIND" == "pip-pre" ]]; then
+        echo "EAGER_IMPORT=true" | tee -a "$GITHUB_ENV"
+        echo "MNE_TEST_ALLOW_SKIP=.*(Requires (spm|brainstorm|misc) dataset|EAGER_IMPORT|CUDA not|Numba not|PySide6 causes segfaults|SCIPY_ARRAY_API).*" | tee -a "$GITHUB_ENV"
+        echo "MNE_QT_BACKEND=PySide6" | tee -a "$GITHUB_ENV"
+    elif [[ "$MNE_CI_KIND" == "pip" ]]; then
+        if [[ "${RUNNER_OS}" == "macOS" ]]; then
+            echo "MNE_TEST_ALLOW_SKIP=.*(Requires (spm|brainstorm|misc) dataset|SCIPY_ARRAY_API|FreeSurfer|CUDA not|macOS|PySide6 causes segfaults).*" | tee -a "$GITHUB_ENV"
+        else
+            echo "MNE_TEST_ALLOW_SKIP=.*(Requires (spm|brainstorm|misc) dataset|SCIPY_ARRAY_API|CUDA not|PySide6 causes segfaults).*" | tee -a "$GITHUB_ENV"
+        fi
+        echo "MNE_QT_BACKEND=PySide6" | tee -a "$GITHUB_ENV"
+    elif [[ "$MNE_CI_KIND" == "pip-ft" ]]; then
+        echo "MNE_TEST_ALLOW_SKIP=.*(Requires (spm|brainstorm|misc|testing) dataset|Requires (MNE-C|FreeSurfer)|MNE_SKIP_NETWORK_TESTS|could not import|No module named|not installed|not available|has __version__|needs >=|[Nn]eeds [a-z0-9_.-]+|[Rr]equires [a-z0-9_.-]+$|[A-Za-z0-9_.-]+ (is )?required|fixed by [a-z0-9_.-]+ [0-9]|CUDA not|Numba not|SCIPY_ARRAY_API|[Aa]rray API|PySide6 causes segfaults).*" | tee -a "$GITHUB_ENV"
+    else
+        echo "::error::Unrecognized MNE_CI_KIND=${MNE_CI_KIND}"
+        exit 1
+    fi
+elif [[ "$MNE_CI_KIND" == "minimal" ]]; then
+    echo "MNE_TEST_ALLOW_SKIP=.*(Requires (spm|brainstorm|misc|testing) dataset|Requires (MNE-C|FreeSurfer)|MNE_SKIP_NETWORK_TESTS|could not import|No module named|not installed|not available|has __version__|needs >=|[Nn]eeds [a-z0-9_.-]+|[Rr]equires [a-z0-9_.-]+$|[A-Za-z0-9_.-]+ (is )?required|fixed by [a-z0-9_.-]+ [0-9]|CUDA not|Numba not|SCIPY_ARRAY_API|[Aa]rray API|PySide6 causes segfaults).*" | tee -a "$GITHUB_ENV"
+    echo "MNE_QT_BACKEND=PySide6" | tee -a "$GITHUB_ENV"
+elif [[ "$MNE_CI_KIND" == "old" ]]; then
+    echo "MNE_IGNORE_WARNINGS_IN_TESTS=true" | tee -a "$GITHUB_ENV"
+    echo "MNE_SKIP_NETWORK_TESTS=1" | tee -a "$GITHUB_ENV"
+    echo "MNE_TEST_ALLOW_SKIP=.*(Requires (spm|brainstorm|misc|testing) dataset|Requires (MNE-C|FreeSurfer)|MNE_SKIP_NETWORK_TESTS|could not import|No module named|not installed|not available|has __version__|needs >=|[Nn]eeds [a-z0-9_.-]+|[Rr]equires [a-z0-9_.-]+$|[A-Za-z0-9_.-]+ (is )?required|fixed by [a-z0-9_.-]+ [0-9]|CUDA not|Numba not|SCIPY_ARRAY_API|[Aa]rray API|PySide6 causes segfaults).*" | tee -a "$GITHUB_ENV"
+    echo "MNE_QT_BACKEND=PyQt6" | tee -a "$GITHUB_ENV"
+elif [[ "$MNE_CI_KIND" == "conda" ]]; then
+    echo "CONDA_ENV=environment.yml" | tee -a "$GITHUB_ENV"
+    echo "MNE_LOGGING_LEVEL=warning" | tee -a "$GITHUB_ENV"
+    echo "MNE_TEST_ALLOW_SKIP=.*(on conda|Requires (spm|brainstorm|misc) dataset|CUDA not|Flakey verbose behavior|PySide6 causes segfaults|SCIPY_ARRAY_API).*" | tee -a "$GITHUB_ENV"
+    echo "MNE_QT_BACKEND=PySide6" | tee -a "$GITHUB_ENV"
+else
+    echo "::error::Unrecognized MNE_CI_KIND=${MNE_CI_KIND}"
+    exit 1
+fi
+if [[ "$CI_OS_NAME" == "windows"* ]]; then
+    echo "MNE_IS_OSMESA=true" | tee -a "$GITHUB_ENV"
+fi
+echo "::endgroup::"
