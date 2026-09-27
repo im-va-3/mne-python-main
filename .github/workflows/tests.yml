@@ -43,6 +43,8 @@ jobs:
       PYTHONUNBUFFERED: '1'
       MNE_CI_KIND: '${{ matrix.kind }}'
       CI_OS_NAME: '${{ matrix.os }}'
+      # This imported fork has no upstream version tags for hatch-vcs.
+      SETUPTOOLS_SCM_PRETEND_VERSION: '1.13.0.dev0'
     strategy:
       fail-fast: false
       matrix:
