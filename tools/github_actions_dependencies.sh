@@ -42,7 +42,10 @@ else
 	test "${MNE_CI_KIND}" == "pip-pre"
 	python -m pip install $STD_ARGS pip setuptools
 	STD_ARGS="$STD_ARGS --pre"
-	${SCRIPT_DIR}/install_pre_requirements.sh
+	(
+		unset SETUPTOOLS_SCM_PRETEND_VERSION
+		"${SCRIPT_DIR}/install_pre_requirements.sh"
+	)
 fi
 echo ""
 
