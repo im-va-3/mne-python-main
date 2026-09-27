@@ -69,9 +69,9 @@ python -m pip install $STD_ARGS \
 	git+https://github.com/h5io/h5io \
 	git+https://github.com/BUNPC/pysnirf2 \
 	git+https://github.com/the-siesta-group/edfio \
-	trame "trame-vtk @ https://github.com/Kitware/trame-vtk/archive/refs/heads/master.zip" \
+	trame git+https://github.com/Kitware/trame-vtk \
 	"trame-vuetify!=3.2.3" \
-	"trame-pyvista @ https://github.com/pyvista/trame-pyvista/archive/refs/heads/main.zip" \
+	git+https://github.com/pyvista/trame-pyvista \
 	nest-asyncio2 jupyter ipyevents ipympl \
 	openmeeg imageio-ffmpeg xlrd mffpy traitlets pybv eeglabio defusedxml antio curryreader \
 	filelock
