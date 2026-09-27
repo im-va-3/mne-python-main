@@ -63,7 +63,7 @@ dependencies:
   - tqdm >=4.66
   - traitlets
   - trame
-  - trame-pyvista
+  - trame-pyvista >=0.1.7
   - trame-vtk
   - trame-vuetify !=3.2.3
   - vtk ==9.6.2

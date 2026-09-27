@@ -560,7 +560,15 @@ def test_export_epochs_eeglab(tmp_path, preload):
     cart_coords = np.array([d["loc"][:3] for d in epochs.info["chs"]])  # just xyz
     cart_coords_read = np.array([d["loc"][:3] for d in epochs_read.info["chs"]])
     assert_allclose(cart_coords, cart_coords_read)
-    assert_array_equal(epochs.events[:, 0], epochs_read.events[:, 0])  # latency
+    if _compare_version(eeglabio.__version__, ">=", "0.1.4"):
+        # eeglabio 0.1.4 places events at time zero in each exported epoch.
+        expected_latencies = (
+            np.arange(len(epochs)) * len(epochs.times)
+            + int(round(-epochs.tmin * epochs.info["sfreq"]))
+        )
+    else:
+        expected_latencies = epochs.events[:, 0]
+    assert_array_equal(expected_latencies, epochs_read.events[:, 0])
     assert epochs.event_id.keys() == epochs_read.event_id.keys()  # just keys
     assert_allclose(epochs.times, epochs_read.times)
     assert_allclose(epochs.get_data(), epochs_read.get_data())
