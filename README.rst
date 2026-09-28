@@ -142,3 +142,64 @@ MNE-Python is licensed under the BSD-3-Clause license.
 
 .. |MNE| image:: https://mne.tools/dev/_static/mne_logo_gray.svg
    :target: https://mne.tools/dev/
+
+
+Step-by-step usage guide
+========================
+
+1. **Install MNE-Python.** Use a Python environment, then run::
+
+       python -m pip install --upgrade mne
+
+   Follow the installation guide at https://mne.tools/stable/install/index.html
+   for optional readers, GUI, and source-build dependencies.
+2. **Load and preprocess a sample recording.** This example downloads the
+   MNE sample dataset, reads a Raw recording, filters it, creates events and
+   epochs, and plots the average response::
+
+       from pathlib import Path
+       import mne
+
+       sample_dir = Path(mne.datasets.sample.data_path())
+       raw = mne.io.read_raw_fif(
+           sample_dir / "MEG" / "sample" / "sample_audvis_raw.fif",
+           preload=True,
+       )
+       raw.filter(l_freq=1.0, h_freq=40.0)
+       events = mne.find_events(raw, stim_channel="STI 014")
+       epochs = mne.Epochs(
+           raw, events, event_id=None, tmin=-0.2, tmax=0.5,
+           baseline=(None, 0), preload=True,
+       )
+       epochs.average().plot()
+
+   For a smaller/non-sample dataset, start with a format-specific script in
+   the local tutorials/ or examples/ tree. Preload only when memory permits.
+3. **Preprocess deliberately.** Set channel types/montage, mark bad channels,
+   filter or resample, and inspect raw traces. Preserve a copy of the original
+   data and record each preprocessing step.
+4. **Create analysis objects.** Find events from annotations or trigger
+   channels, define event IDs, create Epochs, reject bad trials, and average
+   epochs into Evoked responses. Use the Epochs object for trial-level
+   analyses.
+5. **Choose a scientific analysis.** Use time-frequency methods, statistics,
+   decoding/machine learning, connectivity, or source estimation according to
+   the question. Inspect assumptions, units, coordinate systems, and baseline
+   handling before comparing results.
+6. **Visualize, save, and reproduce.** Plot Raw/Epochs/Evoked/source objects,
+   save the derived objects, and retain event definitions and preprocessing
+   parameters with the results.
+
+Functionality map
+-----------------
+
+* Data I/O for MEG, EEG, sEEG, ECoG, and related neurophysiological formats.
+* Raw/preprocessing tools, annotations/events, epochs/evoked responses,
+  rejection/ICA, sensor and source visualization.
+* Time-frequency analysis, statistics, machine learning/decoding,
+  connectivity, source localization, and BIDS-oriented workflows.
+* Browse the local doc/, tutorials/, and examples/ trees and the tutorial index
+  at https://mne.tools/stable/auto_tutorials/index.html for topic-based recipes;
+  use the API reference at https://mne.tools/stable/python_reference.html for
+  all functions and parameters.
+
