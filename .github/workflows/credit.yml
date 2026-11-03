@@ -20,7 +20,7 @@ jobs:
       - uses: actions/checkout@v7.0.1
         with:
           persist-credentials: true
-      - uses: actions/setup-python@v7.0.0
+      - uses: actions/setup-python@v7.1.0
       - run: pip install pygithub sphinx -e .
       - run: python tools/dev/update_credit_json.py
       - run: git add -f doc/sphinxext/prs/*.json
